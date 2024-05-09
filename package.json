@@ -11,6 +11,6 @@
   "dependencies": {
     "@openzeppelin/contracts-upgradeable": "^4.9.3",
     "@openzeppelin/truffle-upgrades": "^1.20.1",
-    "truffle-plugin-verify": "0.5.32"
+    "truffle-plugin-verify": "^0.5.20"
   }
 }

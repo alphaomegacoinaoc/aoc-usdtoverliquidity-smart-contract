@@ -1,0 +1,1284 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1519pt" height="4830pt" viewBox="0.00 0.00 1519.17 4830.00">
+<g id="graph0" class="graph" transform="translate(4,4826) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-4826 1515.17,-4826 1515.17,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterUSDTOverLiquidityContribution">
+
+<path fill="#445773" stroke="#445773" d="M707.9,-2384C707.9,-2384 1296.01,-2384 1296.01,-2384 1302.01,-2384 1308.01,-2390 1308.01,-2396 1308.01,-2396 1308.01,-3321 1308.01,-3321 1308.01,-3327 1302.01,-3333 1296.01,-3333 1296.01,-3333 707.9,-3333 707.9,-3333 701.9,-3333 695.9,-3327 695.9,-3321 695.9,-3321 695.9,-2396 695.9,-2396 695.9,-2390 701.9,-2384 707.9,-2384" style=""/>
+<text text-anchor="middle" x="1001.95" y="-3316.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">USDTOverLiquidityContribution</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterSafeERC20Upgradeable">
+
+<path fill="#445773" stroke="#445773" d="M733.15,-1133C733.15,-1133 1253.66,-1133 1253.66,-1133 1259.66,-1133 1265.66,-1139 1265.66,-1145 1265.66,-1145 1265.66,-1522 1265.66,-1522 1265.66,-1528 1259.66,-1534 1253.66,-1534 1253.66,-1534 733.15,-1534 733.15,-1534 727.15,-1534 721.15,-1528 721.15,-1522 721.15,-1522 721.15,-1145 721.15,-1145 721.15,-1139 727.15,-1133 733.15,-1133" style=""/>
+<text text-anchor="middle" x="993.4" y="-1517.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">SafeERC20Upgradeable  (lib)</text>
+</g>
+<g id="clust3" class="cluster" data-name="clusterIERC20Upgradeable">
+
+<path fill="#445773" stroke="#445773" d="M1072.78,-1921C1072.78,-1921 1225.21,-1921 1225.21,-1921 1231.21,-1921 1237.21,-1927 1237.21,-1933 1237.21,-1933 1237.21,-2364 1237.21,-2364 1237.21,-2370 1231.21,-2376 1225.21,-2376 1225.21,-2376 1072.78,-2376 1072.78,-2376 1066.78,-2376 1060.78,-2370 1060.78,-2364 1060.78,-2364 1060.78,-1933 1060.78,-1933 1060.78,-1927 1066.78,-1921 1072.78,-1921" style=""/>
+<text text-anchor="middle" x="1148.99" y="-2359.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IERC20Upgradeable  (iface)</text>
+</g>
+<g id="clust4" class="cluster" data-name="clusterIERC20PermitUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M1041.09,-940C1041.09,-940 1256.9,-940 1256.9,-940 1262.9,-940 1268.9,-946 1268.9,-952 1268.9,-952 1268.9,-1113 1268.9,-1113 1268.9,-1119 1262.9,-1125 1256.9,-1125 1256.9,-1125 1041.09,-1125 1041.09,-1125 1035.09,-1125 1029.09,-1119 1029.09,-1113 1029.09,-1113 1029.09,-952 1029.09,-952 1029.09,-946 1035.09,-940 1041.09,-940" style=""/>
+<text text-anchor="middle" x="1148.99" y="-1108.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IERC20PermitUpgradeable  (iface)</text>
+</g>
+<g id="clust5" class="cluster" data-name="clusterAddressUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M461.57,-693C461.57,-693 1466.32,-693 1466.32,-693 1472.32,-693 1478.32,-699 1478.32,-705 1478.32,-705 1478.32,-920 1478.32,-920 1478.32,-926 1472.32,-932 1466.32,-932 1466.32,-932 461.57,-932 461.57,-932 455.57,-932 449.57,-926 449.57,-920 449.57,-920 449.57,-705 449.57,-705 449.57,-699 455.57,-693 461.57,-693" style=""/>
+<text text-anchor="middle" x="963.94" y="-915.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">AddressUpgradeable  (lib)</text>
+</g>
+<g id="clust6" class="cluster" data-name="clusterOwnableUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M103.67,-3341C103.67,-3341 916.67,-3341 916.67,-3341 922.67,-3341 928.67,-3347 928.67,-3353 928.67,-3353 928.67,-3568 928.67,-3568 928.67,-3574 922.67,-3580 916.67,-3580 916.67,-3580 103.67,-3580 103.67,-3580 97.67,-3580 91.67,-3574 91.67,-3568 91.67,-3568 91.67,-3353 91.67,-3353 91.67,-3347 97.67,-3341 103.67,-3341" style=""/>
+<text text-anchor="middle" x="510.17" y="-3563.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">OwnableUpgradeable</text>
+</g>
+<g id="clust7" class="cluster" data-name="clusterContextUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M63.44,-3588C63.44,-3588 282.42,-3588 282.42,-3588 288.42,-3588 294.42,-3594 294.42,-3600 294.42,-3600 294.42,-3869 294.42,-3869 294.42,-3875 288.42,-3881 282.42,-3881 282.42,-3881 63.44,-3881 63.44,-3881 57.44,-3881 51.44,-3875 51.44,-3869 51.44,-3869 51.44,-3600 51.44,-3600 51.44,-3594 57.44,-3588 63.44,-3588" style=""/>
+<text text-anchor="middle" x="172.93" y="-3864.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ContextUpgradeable</text>
+</g>
+<g id="clust8" class="cluster" data-name="clusterInitializable">
+
+<path fill="#445773" stroke="#445773" d="M1055.61,-1542C1055.61,-1542 1443.25,-1542 1443.25,-1542 1449.25,-1542 1455.25,-1548 1455.25,-1554 1455.25,-1554 1455.25,-1901 1455.25,-1901 1455.25,-1907 1449.25,-1913 1443.25,-1913 1443.25,-1913 1055.61,-1913 1055.61,-1913 1049.61,-1913 1043.61,-1907 1043.61,-1901 1043.61,-1901 1043.61,-1554 1043.61,-1554 1043.61,-1548 1049.61,-1542 1055.61,-1542" style=""/>
+<text text-anchor="middle" x="1249.43" y="-1896.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Initializable</text>
+</g>
+<g id="clust9" class="cluster" data-name="clusterUUPSUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M20,-3889C20,-3889 627.99,-3889 627.99,-3889 633.99,-3889 639.99,-3895 639.99,-3901 639.99,-3901 639.99,-4294 639.99,-4294 639.99,-4300 633.99,-4306 627.99,-4306 627.99,-4306 20,-4306 20,-4306 14,-4306 8,-4300 8,-4294 8,-4294 8,-3901 8,-3901 8,-3895 14,-3889 20,-3889" style=""/>
+<text text-anchor="middle" x="323.99" y="-4289.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">UUPSUpgradeable</text>
+</g>
+<g id="clust10" class="cluster" data-name="clusterIERC1822ProxiableUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M63.29,-4314C63.29,-4314 283.58,-4314 283.58,-4314 289.58,-4314 295.58,-4320 295.58,-4326 295.58,-4326 295.58,-4379 295.58,-4379 295.58,-4385 289.58,-4391 283.58,-4391 283.58,-4391 63.29,-4391 63.29,-4391 57.29,-4391 51.29,-4385 51.29,-4379 51.29,-4379 51.29,-4326 51.29,-4326 51.29,-4320 57.29,-4314 63.29,-4314" style=""/>
+<text text-anchor="middle" x="173.43" y="-4374.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IERC1822ProxiableUpgradeable  (iface)</text>
+</g>
+<g id="clust11" class="cluster" data-name="clusterERC1967UpgradeUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M22.68,-145C22.68,-145 1232.73,-145 1232.73,-145 1238.73,-145 1244.73,-151 1244.73,-157 1244.73,-157 1244.73,-534 1244.73,-534 1244.73,-540 1238.73,-546 1232.73,-546 1232.73,-546 22.68,-546 22.68,-546 16.68,-546 10.68,-540 10.68,-534 10.68,-534 10.68,-157 10.68,-157 10.68,-151 16.68,-145 22.68,-145" style=""/>
+<text text-anchor="middle" x="627.7" y="-529.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ERC1967UpgradeUpgradeable</text>
+</g>
+<g id="clust12" class="cluster" data-name="clusterIBeaconUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M96.29,-4399C96.29,-4399 249.58,-4399 249.58,-4399 255.58,-4399 261.58,-4405 261.58,-4411 261.58,-4411 261.58,-4464 261.58,-4464 261.58,-4470 255.58,-4476 249.58,-4476 249.58,-4476 96.29,-4476 96.29,-4476 90.29,-4476 84.29,-4470 84.29,-4464 84.29,-4464 84.29,-4411 84.29,-4411 84.29,-4405 90.29,-4399 96.29,-4399" style=""/>
+<text text-anchor="middle" x="172.93" y="-4459.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IBeaconUpgradeable  (iface)</text>
+</g>
+<g id="clust14" class="cluster" data-name="clusterStorageSlotUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M1340.01,-8C1340.01,-8 1499.17,-8 1499.17,-8 1505.17,-8 1511.17,-14 1511.17,-20 1511.17,-20 1511.17,-343 1511.17,-343 1511.17,-349 1505.17,-355 1499.17,-355 1499.17,-355 1340.01,-355 1340.01,-355 1334.01,-355 1328.01,-349 1328.01,-343 1328.01,-343 1328.01,-20 1328.01,-20 1328.01,-14 1334.01,-8 1340.01,-8" style=""/>
+<text text-anchor="middle" x="1419.59" y="-338.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">StorageSlotUpgradeable  (lib)</text>
+</g>
+<g id="clust15" class="cluster" data-name="clusterReentrancyGuardUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M66.16,-4484C66.16,-4484 663.9,-4484 663.9,-4484 669.9,-4484 675.9,-4490 675.9,-4496 675.9,-4496 675.9,-4665 675.9,-4665 675.9,-4671 669.9,-4677 663.9,-4677 663.9,-4677 66.16,-4677 66.16,-4677 60.16,-4677 54.16,-4671 54.16,-4665 54.16,-4665 54.16,-4496 54.16,-4496 54.16,-4490 60.16,-4484 66.16,-4484" style=""/>
+<text text-anchor="middle" x="365.03" y="-4660.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ReentrancyGuardUpgradeable</text>
+</g>
+<g id="clust16" class="cluster" data-name="clustertarget">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M1095.85,-554C1095.85,-554 1202.14,-554 1202.14,-554 1208.14,-554 1214.14,-560 1214.14,-566 1214.14,-566 1214.14,-673 1214.14,-673 1214.14,-679 1208.14,-685 1202.14,-685 1202.14,-685 1095.85,-685 1095.85,-685 1089.85,-685 1083.85,-679 1083.85,-673 1083.85,-673 1083.85,-566 1083.85,-566 1083.85,-560 1089.85,-554 1095.85,-554" style=""/>
+<text text-anchor="middle" x="1148.99" y="-668.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">target</text>
+</g>
+<g id="clust17" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="99.93,-4685 99.93,-4814 551.88,-4814 551.88,-4685 99.93,-4685" style=""/>
+<text text-anchor="middle" x="325.91" y="-4797.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- USDTOverLiquidityContribution.duringContribution -->
+<g id="node1" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.duringContribution">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="925.76,-2946.54 925.76,-2961.46 871.38,-2972 794.49,-2972 740.12,-2961.46 740.12,-2946.54 794.49,-2936 871.38,-2936 925.76,-2946.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="929.76,-2943.25 929.76,-2964.75 871.77,-2976 794.11,-2976 736.11,-2964.75 736.11,-2943.25 794.11,-2932 871.77,-2932 929.76,-2943.25" style=""/>
+<text text-anchor="middle" x="832.94" y="-2949.8" font-family="Times,serif" font-size="14.00" style="">duringContribution</text>
+</g>
+<!-- USDTOverLiquidityContribution.getCurrentPhase -->
+<g id="node7" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.getCurrentPhase">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1148.99" cy="-2954" rx="74.73" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-2949.8" font-family="Times,serif" font-size="14.00" style="">getCurrentPhase</text>
+</g>
+<!-- USDTOverLiquidityContribution.duringContribution&#45;&gt;USDTOverLiquidityContribution.getCurrentPhase -->
+<g id="edge1" class="edge" data-name="USDTOverLiquidityContribution.duringContribution-&gt;USDTOverLiquidityContribution.getCurrentPhase">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M931.16,-2954C972.27,-2954 1019.83,-2954 1059.9,-2954" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1059.88,-2957.5 1069.88,-2954 1059.88,-2950.5 1059.88,-2957.5" style=""/>
+</g>
+<!-- USDTOverLiquidityContribution.&lt;Constructor&gt; -->
+<g id="node2" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="832.94" cy="-3228" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-3223.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- USDTOverLiquidityContribution.initialize -->
+<g id="node3" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.initialize">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="832.94" cy="-3282" rx="44.64" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-3277.8" font-family="Times,serif" font-size="14.00" style="">initialize</text>
+</g>
+<!-- USDTOverLiquidityContribution.__Ownable_init_unchained -->
+<g id="node19" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.__Ownable_init_unchained">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1148.99" cy="-3282" rx="117.54" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-3277.8" font-family="Times,serif" font-size="14.00" style="">__Ownable_init_unchained</text>
+</g>
+<!-- USDTOverLiquidityContribution.initialize&#45;&gt;USDTOverLiquidityContribution.__Ownable_init_unchained -->
+<g id="edge2" class="edge" data-name="USDTOverLiquidityContribution.initialize-&gt;USDTOverLiquidityContribution.__Ownable_init_unchained">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M878.93,-3282C915.21,-3282 968.13,-3282 1017.46,-3282" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1017.22,-3285.5 1027.22,-3282 1017.22,-3278.5 1017.22,-3285.5" style=""/>
+</g>
+<!-- USDTOverLiquidityContribution.__ReentrancyGuard_init_unchained -->
+<g id="node20" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.__ReentrancyGuard_init_unchained">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1148.99" cy="-3228" rx="151.03" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-3223.8" font-family="Times,serif" font-size="14.00" style="">__ReentrancyGuard_init_unchained</text>
+</g>
+<!-- USDTOverLiquidityContribution.initialize&#45;&gt;USDTOverLiquidityContribution.__ReentrancyGuard_init_unchained -->
+<g id="edge3" class="edge" data-name="USDTOverLiquidityContribution.initialize-&gt;USDTOverLiquidityContribution.__ReentrancyGuard_init_unchained">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M875.64,-3274.83C918.62,-3267.44 987.3,-3255.63 1044.93,-3245.72" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1045.18,-3249.23 1054.44,-3244.09 1043.99,-3242.33 1045.18,-3249.23" style=""/>
+</g>
+<!-- USDTOverLiquidityContribution._authorizeUpgrade -->
+<g id="node4" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution._authorizeUpgrade">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="832.94" cy="-3120" rx="85.08" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-3115.8" font-family="Times,serif" font-size="14.00" style="">_authorizeUpgrade</text>
+</g>
+<!-- USDTOverLiquidityContribution.renounceOwnership -->
+<g id="node5" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.renounceOwnership">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="832.94" cy="-3066" rx="88.6" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-3061.8" font-family="Times,serif" font-size="14.00" style="">renounceOwnership</text>
+</g>
+<!-- USDTOverLiquidityContribution.setPhaseData -->
+<g id="node6" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.setPhaseData">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="832.94" cy="-3174" rx="62.55" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-3169.8" font-family="Times,serif" font-size="14.00" style="">setPhaseData</text>
+</g>
+<!-- USDTOverLiquidityContribution.setPhaseData&#45;&gt;USDTOverLiquidityContribution.getCurrentPhase -->
+<g id="edge4" class="edge" data-name="USDTOverLiquidityContribution.setPhaseData-&gt;USDTOverLiquidityContribution.getCurrentPhase">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M894.54,-3168.74C916.78,-3164.92 941.51,-3158.34 961.98,-3147 1035.6,-3106.22 1098.03,-3026.75 1128.34,-2983.6" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1131.17,-2985.66 1133.97,-2975.44 1125.41,-2981.69 1131.17,-2985.66" style=""/>
+</g>
+<!-- USDTOverLiquidityContribution.finalizeCurrentPhase -->
+<g id="node8" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.finalizeCurrentPhase">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="832.94" cy="-3012" rx="92.03" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-3007.8" font-family="Times,serif" font-size="14.00" style="">finalizeCurrentPhase</text>
+</g>
+<!-- USDTOverLiquidityContribution.finalizeCurrentPhase&#45;&gt;USDTOverLiquidityContribution.getCurrentPhase -->
+<g id="edge5" class="edge" data-name="USDTOverLiquidityContribution.finalizeCurrentPhase-&gt;USDTOverLiquidityContribution.getCurrentPhase">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M903.25,-2999.2C953.95,-2989.84 1022.63,-2977.15 1074.33,-2967.6" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1074.91,-2971.06 1084.11,-2965.8 1073.64,-2964.17 1074.91,-2971.06" style=""/>
+</g>
+<!-- USDTOverLiquidityContribution.contribute -->
+<g id="node9" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.contribute">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="832.94" cy="-2680" rx="50.38" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-2675.8" font-family="Times,serif" font-size="14.00" style="">contribute</text>
+</g>
+<!-- USDTOverLiquidityContribution.contribute&#45;&gt;USDTOverLiquidityContribution.getCurrentPhase -->
+<g id="edge6" class="edge" data-name="USDTOverLiquidityContribution.contribute-&gt;USDTOverLiquidityContribution.getCurrentPhase">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M884.35,-2678.29C910.79,-2680.12 941.79,-2687.03 961.98,-2707 1014.41,-2758.87 954.11,-2809.71 997.98,-2869 1020.55,-2899.51 1057.57,-2920.65 1089.18,-2934.22" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1087.61,-2937.36 1098.19,-2937.9 1090.26,-2930.88 1087.61,-2937.36" style=""/>
+</g>
+<!-- IERC20Upgradeable.safeTransferFrom -->
+<g id="node32" class="node" pointer-events="visible" data-name="IERC20Upgradeable.safeTransferFrom">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1148.99" cy="-2325" rx="80.43" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-2320.8" font-family="Times,serif" font-size="14.00" style="">safeTransferFrom</text>
+</g>
+<!-- USDTOverLiquidityContribution.contribute&#45;&gt;IERC20Upgradeable.safeTransferFrom -->
+<g id="edge7" class="edge" data-name="USDTOverLiquidityContribution.contribute-&gt;IERC20Upgradeable.safeTransferFrom">
+
+<path fill="none" stroke="white" stroke-width="2" d="M884.41,-2682.43C911.21,-2680.87 942.53,-2674 961.98,-2653 1045.14,-2563.21 921.48,-2475.53 997.98,-2380 1014.74,-2359.07 1040.24,-2346.1 1065.48,-2338.07" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1066.27,-2341.48 1074.91,-2335.35 1064.33,-2334.76 1066.27,-2341.48" style=""/>
+</g>
+<!-- USDTOverLiquidityContribution.withdrawContibutedUSDT -->
+<g id="node10" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.withdrawContibutedUSDT">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="832.94" cy="-2626" rx="115.79" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-2621.8" font-family="Times,serif" font-size="14.00" style="">withdrawContibutedUSDT</text>
+</g>
+<!-- USDTOverLiquidityContribution.owner -->
+<g id="node21" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.owner">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1148.99" cy="-2626" rx="35.34" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-2621.8" font-family="Times,serif" font-size="14.00" style="">owner</text>
+</g>
+<!-- USDTOverLiquidityContribution.withdrawContibutedUSDT&#45;&gt;USDTOverLiquidityContribution.owner -->
+<g id="edge9" class="edge" data-name="USDTOverLiquidityContribution.withdrawContibutedUSDT-&gt;USDTOverLiquidityContribution.owner">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M949.99,-2626C1001.64,-2626 1059.64,-2626 1099.45,-2626" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1099.2,-2629.5 1109.2,-2626 1099.2,-2622.5 1099.2,-2629.5" style=""/>
+</g>
+<!-- IERC20Upgradeable.safeTransfer -->
+<g id="node33" class="node" pointer-events="visible" data-name="IERC20Upgradeable.safeTransfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1148.99" cy="-2271" rx="59.08" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-2266.8" font-family="Times,serif" font-size="14.00" style="">safeTransfer</text>
+</g>
+<!-- USDTOverLiquidityContribution.withdrawContibutedUSDT&#45;&gt;IERC20Upgradeable.safeTransfer -->
+<g id="edge8" class="edge" data-name="USDTOverLiquidityContribution.withdrawContibutedUSDT-&gt;IERC20Upgradeable.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M936.51,-2617.01C946.08,-2612.65 954.85,-2606.79 961.98,-2599 1052.93,-2499.6 905.56,-2396.04 997.98,-2298 1018.21,-2276.54 1049.25,-2268.65 1077.86,-2266.58" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1077.92,-2270.08 1087.76,-2266.14 1077.61,-2263.08 1077.92,-2270.08" style=""/>
+</g>
+<!-- IERC20Upgradeable.balanceOf -->
+<g id="node34" class="node" pointer-events="visible" data-name="IERC20Upgradeable.balanceOf">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="1148.99" cy="-2217" rx="50.92" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-2212.8" font-family="Times,serif" font-size="14.00" style="">balanceOf</text>
+</g>
+<!-- USDTOverLiquidityContribution.withdrawContibutedUSDT&#45;&gt;IERC20Upgradeable.balanceOf -->
+<g id="edge10" class="edge" data-name="USDTOverLiquidityContribution.withdrawContibutedUSDT-&gt;IERC20Upgradeable.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M936.96,-2616.99C946.39,-2612.62 954.99,-2606.77 961.98,-2599 1014.98,-2540.02 944.11,-2302.19 997.98,-2244 1019.92,-2220.3 1055.05,-2213.06 1085.79,-2211.97" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1085.65,-2215.48 1095.62,-2211.88 1085.59,-2208.48 1085.65,-2215.48" style=""/>
+</g>
+<!-- USDTOverLiquidityContribution.setUsdtToken -->
+<g id="node11" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.setUsdtToken">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="832.94" cy="-2788" rx="64.86" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-2783.8" font-family="Times,serif" font-size="14.00" style="">setUsdtToken</text>
+</g>
+<!-- USDTOverLiquidityContribution.getAllPhases -->
+<g id="node12" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.getAllPhases">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="832.94" cy="-2734" rx="61.42" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-2729.8" font-family="Times,serif" font-size="14.00" style="">getAllPhases</text>
+</g>
+<!-- USDTOverLiquidityContribution.updatePhase -->
+<g id="node13" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.updatePhase">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="832.94" cy="-2896" rx="59.11" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-2891.8" font-family="Times,serif" font-size="14.00" style="">updatePhase</text>
+</g>
+<!-- USDTOverLiquidityContribution.updatePhase&#45;&gt;USDTOverLiquidityContribution.getCurrentPhase -->
+<g id="edge11" class="edge" data-name="USDTOverLiquidityContribution.updatePhase-&gt;USDTOverLiquidityContribution.getCurrentPhase">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M885.45,-2905.51C936.81,-2915 1016.21,-2929.66 1074.25,-2940.38" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1073.59,-2943.82 1084.06,-2942.19 1074.86,-2936.93 1073.59,-2943.82" style=""/>
+</g>
+<!-- USDTOverLiquidityContribution.withdrawUSDTReferralBonus -->
+<g id="node14" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.withdrawUSDTReferralBonus">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="832.94" cy="-2518" rx="129.08" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-2513.8" font-family="Times,serif" font-size="14.00" style="">withdrawUSDTReferralBonus</text>
+</g>
+<!-- USDTOverLiquidityContribution.withdrawUSDTReferralBonus&#45;&gt;IERC20Upgradeable.balanceOf -->
+<g id="edge12" class="edge" data-name="USDTOverLiquidityContribution.withdrawUSDTReferralBonus-&gt;IERC20Upgradeable.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M940.29,-2506.92C948.36,-2502.84 955.76,-2497.63 961.98,-2491 1037.91,-2410.12 920.85,-2323.74 997.98,-2244 1020.27,-2220.95 1055.08,-2213.67 1085.55,-2212.4" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1085.33,-2215.9 1095.27,-2212.24 1085.22,-2208.9 1085.33,-2215.9" style=""/>
+</g>
+<!-- IERC20Upgradeable.transfer -->
+<g id="node35" class="node" pointer-events="visible" data-name="IERC20Upgradeable.transfer">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="1148.99" cy="-2163" rx="40.55" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-2158.8" font-family="Times,serif" font-size="14.00" style="">transfer</text>
+</g>
+<!-- USDTOverLiquidityContribution.withdrawUSDTReferralBonus&#45;&gt;IERC20Upgradeable.transfer -->
+<g id="edge13" class="edge" data-name="USDTOverLiquidityContribution.withdrawUSDTReferralBonus-&gt;IERC20Upgradeable.transfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M940.48,-2507.09C948.5,-2502.97 955.84,-2497.7 961.98,-2491 1052.93,-2391.6 905.56,-2288.04 997.98,-2190 1022.47,-2164.02 1062.81,-2157.93 1095.49,-2157.97" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1095.39,-2161.47 1105.48,-2158.23 1095.57,-2154.47 1095.39,-2161.47" style=""/>
+</g>
+<!-- USDTOverLiquidityContribution.updateBonusInAOC -->
+<g id="node15" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.updateBonusInAOC">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="832.94" cy="-2572" rx="89.79" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-2567.8" font-family="Times,serif" font-size="14.00" style="">updateBonusInAOC</text>
+</g>
+<!-- USDTOverLiquidityContribution.withdrawToken -->
+<g id="node16" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.withdrawToken">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="832.94" cy="-2410" rx="72.36" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-2405.8" font-family="Times,serif" font-size="14.00" style="">withdrawToken</text>
+</g>
+<!-- USDTOverLiquidityContribution.withdrawToken&#45;&gt;IERC20Upgradeable.transfer -->
+<g id="edge14" class="edge" data-name="USDTOverLiquidityContribution.withdrawToken-&gt;IERC20Upgradeable.transfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M842.12,-2390.88C861.86,-2347.27 916.54,-2240.39 997.98,-2190 1026.7,-2172.23 1064.06,-2165.47 1094.32,-2163.15" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1094.43,-2166.65 1104.21,-2162.57 1094.02,-2159.67 1094.43,-2166.65" style=""/>
+</g>
+<!-- USDTOverLiquidityContribution.&lt;Receive Ether&gt; -->
+<g id="node17" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.&lt;Receive Ether&gt;">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="832.94" cy="-2464" rx="76.21" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-2459.8" font-family="Times,serif" font-size="14.00" style="">&lt;Receive Ether&gt;</text>
+</g>
+<!-- USDTOverLiquidityContribution.withdrawNative -->
+<g id="node18" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.withdrawNative">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="832.94" cy="-2842" rx="73" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-2837.8" font-family="Times,serif" font-size="14.00" style="">withdrawNative</text>
+</g>
+<!-- USDTOverLiquidityContribution.payable -->
+<g id="node22" class="node" pointer-events="visible" data-name="USDTOverLiquidityContribution.payable">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1148.99" cy="-2842" rx="41.13" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-2837.8" font-family="Times,serif" font-size="14.00" style="">payable</text>
+</g>
+<!-- USDTOverLiquidityContribution.withdrawNative&#45;&gt;USDTOverLiquidityContribution.payable -->
+<g id="edge15" class="edge" data-name="USDTOverLiquidityContribution.withdrawNative-&gt;USDTOverLiquidityContribution.payable">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M907.17,-2842C964.2,-2842 1042.07,-2842 1093.64,-2842" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1093.45,-2845.5 1103.45,-2842 1093.45,-2838.5 1093.45,-2845.5" style=""/>
+</g>
+<!-- SafeERC20Upgradeable.safeTransfer -->
+<g id="node23" class="node" pointer-events="visible" data-name="SafeERC20Upgradeable.safeTransfer">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="832.94" cy="-1321" rx="59.08" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-1316.8" font-family="Times,serif" font-size="14.00" style="">safeTransfer</text>
+</g>
+<!-- SafeERC20Upgradeable._callOptionalReturn -->
+<g id="node30" class="node" pointer-events="visible" data-name="SafeERC20Upgradeable._callOptionalReturn">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1148.99" cy="-1321" rx="89.76" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-1316.8" font-family="Times,serif" font-size="14.00" style="">_callOptionalReturn</text>
+</g>
+<!-- SafeERC20Upgradeable.safeTransfer&#45;&gt;SafeERC20Upgradeable._callOptionalReturn -->
+<g id="edge16" class="edge" data-name="SafeERC20Upgradeable.safeTransfer-&gt;SafeERC20Upgradeable._callOptionalReturn">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M893.38,-1321C936.07,-1321 994.72,-1321 1044.96,-1321" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1044.85,-1324.5 1054.85,-1321 1044.85,-1317.5 1044.85,-1324.5" style=""/>
+</g>
+<!-- SafeERC20Upgradeable.safeTransferFrom -->
+<g id="node24" class="node" pointer-events="visible" data-name="SafeERC20Upgradeable.safeTransferFrom">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="832.94" cy="-1267" rx="80.43" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-1262.8" font-family="Times,serif" font-size="14.00" style="">safeTransferFrom</text>
+</g>
+<!-- SafeERC20Upgradeable.safeTransferFrom&#45;&gt;SafeERC20Upgradeable._callOptionalReturn -->
+<g id="edge17" class="edge" data-name="SafeERC20Upgradeable.safeTransferFrom-&gt;SafeERC20Upgradeable._callOptionalReturn">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M899.39,-1278.25C947.55,-1286.54 1013.38,-1297.85 1065.2,-1306.76" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1064.28,-1310.16 1074.73,-1308.4 1065.47,-1303.26 1064.28,-1310.16" style=""/>
+</g>
+<!-- SafeERC20Upgradeable.safeApprove -->
+<g id="node25" class="node" pointer-events="visible" data-name="SafeERC20Upgradeable.safeApprove">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="832.94" cy="-1483" rx="60.25" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-1478.8" font-family="Times,serif" font-size="14.00" style="">safeApprove</text>
+</g>
+<!-- SafeERC20Upgradeable.safeApprove&#45;&gt;SafeERC20Upgradeable._callOptionalReturn -->
+<g id="edge19" class="edge" data-name="SafeERC20Upgradeable.safeApprove-&gt;SafeERC20Upgradeable._callOptionalReturn">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M890.67,-1476.29C913.5,-1472.26 939.66,-1465.91 961.98,-1456 1023.06,-1428.89 1083.83,-1379.47 1118.55,-1348.54" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1120.73,-1351.29 1125.81,-1341.99 1116.04,-1346.1 1120.73,-1351.29" style=""/>
+</g>
+<!-- IERC20Upgradeable.allowance -->
+<g id="node36" class="node" pointer-events="visible" data-name="IERC20Upgradeable.allowance">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="1148.99" cy="-2109" rx="50.36" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-2104.8" font-family="Times,serif" font-size="14.00" style="">allowance</text>
+</g>
+<!-- SafeERC20Upgradeable.safeApprove&#45;&gt;IERC20Upgradeable.allowance -->
+<g id="edge18" class="edge" data-name="SafeERC20Upgradeable.safeApprove-&gt;IERC20Upgradeable.allowance">
+
+<path fill="none" stroke="white" stroke-width="2" d="M836.46,-1502.36C849.06,-1595.89 908.07,-1999.77 997.98,-2082 1021.28,-2103.31 1055.46,-2110.62 1085.31,-2112.35" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1085.09,-2115.85 1095.2,-2112.68 1085.32,-2108.85 1085.09,-2115.85" style=""/>
+</g>
+<!-- SafeERC20Upgradeable.safeIncreaseAllowance -->
+<g id="node26" class="node" pointer-events="visible" data-name="SafeERC20Upgradeable.safeIncreaseAllowance">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="832.94" cy="-1429" rx="100.65" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-1424.8" font-family="Times,serif" font-size="14.00" style="">safeIncreaseAllowance</text>
+</g>
+<!-- SafeERC20Upgradeable.safeIncreaseAllowance&#45;&gt;SafeERC20Upgradeable._callOptionalReturn -->
+<g id="edge21" class="edge" data-name="SafeERC20Upgradeable.safeIncreaseAllowance-&gt;SafeERC20Upgradeable._callOptionalReturn">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M908.41,-1415.96C926.15,-1412.12 944.88,-1407.46 961.98,-1402 1010.87,-1386.38 1064.38,-1362.29 1101.4,-1344.44" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1102.64,-1347.74 1110.1,-1340.21 1099.57,-1341.44 1102.64,-1347.74" style=""/>
+</g>
+<!-- SafeERC20Upgradeable.safeIncreaseAllowance&#45;&gt;IERC20Upgradeable.allowance -->
+<g id="edge20" class="edge" data-name="SafeERC20Upgradeable.safeIncreaseAllowance-&gt;IERC20Upgradeable.allowance">
+
+<path fill="none" stroke="white" stroke-width="2" d="M930.46,-1434.78C942.51,-1439.4 953.54,-1446.18 961.98,-1456 1052.83,-1561.65 905.57,-1977.71 997.98,-2082 1019.63,-2106.44 1055.26,-2113.59 1086.36,-2114.44" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1086.32,-2117.94 1096.33,-2114.45 1086.33,-2110.94 1086.32,-2117.94" style=""/>
+</g>
+<!-- SafeERC20Upgradeable.safeDecreaseAllowance -->
+<g id="node27" class="node" pointer-events="visible" data-name="SafeERC20Upgradeable.safeDecreaseAllowance">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="832.94" cy="-1375" rx="103.58" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-1370.8" font-family="Times,serif" font-size="14.00" style="">safeDecreaseAllowance</text>
+</g>
+<!-- SafeERC20Upgradeable.safeDecreaseAllowance&#45;&gt;SafeERC20Upgradeable._callOptionalReturn -->
+<g id="edge23" class="edge" data-name="SafeERC20Upgradeable.safeDecreaseAllowance-&gt;SafeERC20Upgradeable._callOptionalReturn">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M910.36,-1361.86C957.2,-1353.81 1017.16,-1343.5 1065.13,-1335.25" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1065.44,-1338.75 1074.7,-1333.6 1064.25,-1331.85 1065.44,-1338.75" style=""/>
+</g>
+<!-- SafeERC20Upgradeable.safeDecreaseAllowance&#45;&gt;IERC20Upgradeable.allowance -->
+<g id="edge22" class="edge" data-name="SafeERC20Upgradeable.safeDecreaseAllowance-&gt;IERC20Upgradeable.allowance">
+
+<path fill="none" stroke="white" stroke-width="2" d="M932.08,-1381.37C943.5,-1385.97 953.93,-1392.59 961.98,-1402 1060.38,-1516.96 897.88,-1968.52 997.98,-2082 1019.58,-2106.48 1055.2,-2113.64 1086.31,-2114.48" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1086.29,-2117.98 1096.29,-2114.49 1086.29,-2110.98 1086.29,-2117.98" style=""/>
+</g>
+<!-- SafeERC20Upgradeable.forceApprove -->
+<g id="node28" class="node" pointer-events="visible" data-name="SafeERC20Upgradeable.forceApprove">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="832.94" cy="-1213" rx="64.82" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-1208.8" font-family="Times,serif" font-size="14.00" style="">forceApprove</text>
+</g>
+<!-- SafeERC20Upgradeable.forceApprove&#45;&gt;SafeERC20Upgradeable._callOptionalReturn -->
+<g id="edge25" class="edge" data-name="SafeERC20Upgradeable.forceApprove-&gt;SafeERC20Upgradeable._callOptionalReturn">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M898.43,-1215.39C918.97,-1219.13 941.64,-1224.5 961.98,-1231 1015.87,-1248.22 1075.36,-1275.72 1112.21,-1296.04" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1110.29,-1298.97 1120.71,-1300.87 1113.75,-1292.89 1110.29,-1298.97" style=""/>
+</g>
+<!-- SafeERC20Upgradeable.forceApprove&#45;&gt;SafeERC20Upgradeable._callOptionalReturn -->
+<g id="edge26" class="edge" data-name="SafeERC20Upgradeable.forceApprove-&gt;SafeERC20Upgradeable._callOptionalReturn">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M876.6,-1227.6C901.77,-1233.29 934.06,-1240.08 961.98,-1249 1005.69,-1262.97 1053.08,-1283.69 1089.09,-1299.5" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1087.51,-1302.63 1098.07,-1303.44 1090.32,-1296.22 1087.51,-1302.63" style=""/>
+</g>
+<!-- SafeERC20Upgradeable._callOptionalReturnBool -->
+<g id="node31" class="node" pointer-events="visible" data-name="SafeERC20Upgradeable._callOptionalReturnBool">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1148.99" cy="-1186" rx="108.82" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-1181.8" font-family="Times,serif" font-size="14.00" style="">_callOptionalReturnBool</text>
+</g>
+<!-- SafeERC20Upgradeable.forceApprove&#45;&gt;SafeERC20Upgradeable._callOptionalReturnBool -->
+<g id="edge24" class="edge" data-name="SafeERC20Upgradeable.forceApprove-&gt;SafeERC20Upgradeable._callOptionalReturnBool">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M896.36,-1207.63C936.51,-1204.18 989.8,-1199.6 1037.01,-1195.54" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1037.15,-1199.04 1046.81,-1194.7 1036.55,-1192.07 1037.15,-1199.04" style=""/>
+</g>
+<!-- SafeERC20Upgradeable.safePermit -->
+<g id="node29" class="node" pointer-events="visible" data-name="SafeERC20Upgradeable.safePermit">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="832.94" cy="-1159" rx="52.17" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-1154.8" font-family="Times,serif" font-size="14.00" style="">safePermit</text>
+</g>
+<!-- IERC20PermitUpgradeable.nonces -->
+<g id="node40" class="node" pointer-events="visible" data-name="IERC20PermitUpgradeable.nonces">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="1148.99" cy="-1074" rx="37.71" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-1069.8" font-family="Times,serif" font-size="14.00" style="">nonces</text>
+</g>
+<!-- SafeERC20Upgradeable.safePermit&#45;&gt;IERC20PermitUpgradeable.nonces -->
+<g id="edge27" class="edge" data-name="SafeERC20Upgradeable.safePermit-&gt;IERC20PermitUpgradeable.nonces">
+
+<path fill="none" stroke="white" stroke-width="2" d="M869.66,-1144.85C925.91,-1126.81 1035.27,-1097.02 1098.87,-1082.23" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1099.41,-1085.7 1108.39,-1080.07 1097.86,-1078.87 1099.41,-1085.7" style=""/>
+</g>
+<!-- SafeERC20Upgradeable.safePermit&#45;&gt;IERC20PermitUpgradeable.nonces -->
+<g id="edge29" class="edge" data-name="SafeERC20Upgradeable.safePermit-&gt;IERC20PermitUpgradeable.nonces">
+
+<path fill="none" stroke="white" stroke-width="2" d="M881.64,-1151.1C942.9,-1136.92 1048.22,-1108.33 1106.38,-1090.02" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1107.4,-1093.37 1115.85,-1086.98 1105.26,-1086.7 1107.4,-1093.37" style=""/>
+</g>
+<!-- IERC20PermitUpgradeable.permit -->
+<g id="node41" class="node" pointer-events="visible" data-name="IERC20PermitUpgradeable.permit">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="1148.99" cy="-1020" rx="36.49" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-1015.8" font-family="Times,serif" font-size="14.00" style="">permit</text>
+</g>
+<!-- SafeERC20Upgradeable.safePermit&#45;&gt;IERC20PermitUpgradeable.permit -->
+<g id="edge28" class="edge" data-name="SafeERC20Upgradeable.safePermit-&gt;IERC20PermitUpgradeable.permit">
+
+<path fill="none" stroke="white" stroke-width="2" d="M853.54,-1141.47C882.77,-1116.33 940.53,-1070.52 997.98,-1047 1030.09,-1033.86 1068.65,-1027.09 1098.64,-1023.62" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1098.75,-1027.13 1108.33,-1022.61 1098.02,-1020.17 1098.75,-1027.13" style=""/>
+</g>
+<!-- AddressUpgradeable.isContract -->
+<g id="node43" class="node" pointer-events="visible" data-name="AddressUpgradeable.isContract">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="1419.59" cy="-719" rx="50.96" ry="18" style=""/>
+<text text-anchor="middle" x="1419.59" y="-714.8" font-family="Times,serif" font-size="14.00" style="">isContract</text>
+</g>
+<!-- SafeERC20Upgradeable._callOptionalReturnBool&#45;&gt;AddressUpgradeable.isContract -->
+<g id="edge30" class="edge" data-name="SafeERC20Upgradeable._callOptionalReturnBool-&gt;AddressUpgradeable.isContract">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1235.98,-1174.14C1263.28,-1165.96 1290.8,-1152.19 1308.01,-1129 1358.8,-1060.56 1275.31,-812.98 1328.01,-746 1335.24,-736.81 1345.46,-730.65 1356.44,-726.54" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1357.12,-729.99 1365.66,-723.72 1355.08,-723.29 1357.12,-729.99" style=""/>
+</g>
+<!-- IERC20Upgradeable.totalSupply -->
+<g id="node37" class="node" pointer-events="visible" data-name="IERC20Upgradeable.totalSupply">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="1148.99" cy="-2055" rx="55.64" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-2050.8" font-family="Times,serif" font-size="14.00" style="">totalSupply</text>
+</g>
+<!-- IERC20Upgradeable.approve -->
+<g id="node38" class="node" pointer-events="visible" data-name="IERC20Upgradeable.approve">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="1148.99" cy="-2001" rx="42.28" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-1996.8" font-family="Times,serif" font-size="14.00" style="">approve</text>
+</g>
+<!-- IERC20Upgradeable.transferFrom -->
+<g id="node39" class="node" pointer-events="visible" data-name="IERC20Upgradeable.transferFrom">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="1148.99" cy="-1947" rx="61.41" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-1942.8" font-family="Times,serif" font-size="14.00" style="">transferFrom</text>
+</g>
+<!-- IERC20PermitUpgradeable.DOMAIN_SEPARATOR -->
+<g id="node42" class="node" pointer-events="visible" data-name="IERC20PermitUpgradeable.DOMAIN_SEPARATOR">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="1148.99" cy="-966" rx="111.81" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-961.8" font-family="Times,serif" font-size="14.00" style="">DOMAIN_SEPARATOR</text>
+</g>
+<!-- AddressUpgradeable.sendValue -->
+<g id="node44" class="node" pointer-events="visible" data-name="AddressUpgradeable.sendValue">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="516.88" cy="-881" rx="51.59" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-876.8" font-family="Times,serif" font-size="14.00" style="">sendValue</text>
+</g>
+<!-- AddressUpgradeable.functionCall -->
+<g id="node45" class="node" pointer-events="visible" data-name="AddressUpgradeable.functionCall">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="516.88" cy="-827" rx="59.12" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-822.8" font-family="Times,serif" font-size="14.00" style="">functionCall</text>
+</g>
+<!-- AddressUpgradeable.functionCallWithValue -->
+<g id="node46" class="node" pointer-events="visible" data-name="AddressUpgradeable.functionCallWithValue">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="832.94" cy="-863" rx="101.86" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-858.8" font-family="Times,serif" font-size="14.00" style="">functionCallWithValue</text>
+</g>
+<!-- AddressUpgradeable.functionCall&#45;&gt;AddressUpgradeable.functionCallWithValue -->
+<g id="edge31" class="edge" data-name="AddressUpgradeable.functionCall-&gt;AddressUpgradeable.functionCallWithValue">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M577.32,-828.39C625.56,-832.39 694.15,-840.05 747.99,-847.32" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="747.25,-850.76 757.64,-848.65 748.21,-843.82 747.25,-850.76" style=""/>
+</g>
+<!-- AddressUpgradeable.functionCall&#45;&gt;AddressUpgradeable.functionCallWithValue -->
+<g id="edge32" class="edge" data-name="AddressUpgradeable.functionCall-&gt;AddressUpgradeable.functionCallWithValue">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M567.3,-837.74C608.23,-843.99 667.96,-851.31 720.32,-856.7" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="719.79,-860.16 730.09,-857.69 720.5,-853.2 719.79,-860.16" style=""/>
+</g>
+<!-- AddressUpgradeable.functionCallWithValue&#45;&gt;AddressUpgradeable.functionCallWithValue -->
+<g id="edge33" class="edge" data-name="AddressUpgradeable.functionCallWithValue-&gt;AddressUpgradeable.functionCallWithValue">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M777.86,-879.29C764.58,-889.39 782.94,-899 832.94,-899 859.89,-899 877.65,-896.21 886.21,-892.05" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="889.66,-892.68 887.59,-882.29 882.73,-891.7 889.66,-892.68" style=""/>
+</g>
+<!-- AddressUpgradeable.verifyCallResultFromTarget -->
+<g id="node49" class="node" pointer-events="visible" data-name="AddressUpgradeable.verifyCallResultFromTarget">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1148.99" cy="-746" rx="120.99" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-741.8" font-family="Times,serif" font-size="14.00" style="">verifyCallResultFromTarget</text>
+</g>
+<!-- AddressUpgradeable.functionCallWithValue&#45;&gt;AddressUpgradeable.verifyCallResultFromTarget -->
+<g id="edge34" class="edge" data-name="AddressUpgradeable.functionCallWithValue-&gt;AddressUpgradeable.verifyCallResultFromTarget">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M924.47,-853.97C937.86,-849.87 950.87,-844.09 961.98,-836 988.04,-817.01 971.64,-791.6 997.98,-773 1006.51,-766.98 1015.97,-762.17 1025.88,-758.34" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1026.96,-761.68 1035.29,-755.13 1024.69,-755.05 1026.96,-761.68" style=""/>
+</g>
+<!-- AddressUpgradeable.functionStaticCall -->
+<g id="node47" class="node" pointer-events="visible" data-name="AddressUpgradeable.functionStaticCall">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="832.94" cy="-791" rx="81.11" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-786.8" font-family="Times,serif" font-size="14.00" style="">functionStaticCall</text>
+</g>
+<!-- AddressUpgradeable.functionStaticCall&#45;&gt;AddressUpgradeable.functionStaticCall -->
+<g id="edge35" class="edge" data-name="AddressUpgradeable.functionStaticCall-&gt;AddressUpgradeable.functionStaticCall">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M780.06,-805.79C762.84,-816.42 780.47,-827 832.94,-827 863.68,-827 882.46,-823.37 889.28,-818.22" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="892.69,-817.4 886.63,-808.71 885.94,-819.28 892.69,-817.4" style=""/>
+</g>
+<!-- AddressUpgradeable.functionStaticCall&#45;&gt;AddressUpgradeable.verifyCallResultFromTarget -->
+<g id="edge37" class="edge" data-name="AddressUpgradeable.functionStaticCall-&gt;AddressUpgradeable.verifyCallResultFromTarget">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M903.64,-781.01C945.1,-775.07 998.47,-767.43 1044.75,-760.79" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1045.2,-764.27 1054.6,-759.38 1044.21,-757.34 1045.2,-764.27" style=""/>
+</g>
+<!-- target.staticcall -->
+<g id="node110" class="node" pointer-events="visible" data-name="target.staticcall">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1148.99" cy="-634" rx="45.21" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-629.8" font-family="Times,serif" font-size="14.00" style="">staticcall</text>
+</g>
+<!-- AddressUpgradeable.functionStaticCall&#45;&gt;target.staticcall -->
+<g id="edge36" class="edge" data-name="AddressUpgradeable.functionStaticCall-&gt;target.staticcall">
+
+<path fill="none" stroke="white" stroke-width="2" d="M912.68,-786.02C930.26,-781.9 947.86,-775.08 961.98,-764 991.06,-741.17 970.61,-713.86 997.98,-689 1024.33,-665.07 1061.95,-651.31 1092.93,-643.54" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1093.42,-647.02 1102.36,-641.34 1091.83,-640.2 1093.42,-647.02" style=""/>
+</g>
+<!-- AddressUpgradeable.functionDelegateCall -->
+<g id="node48" class="node" pointer-events="visible" data-name="AddressUpgradeable.functionDelegateCall">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="832.94" cy="-719" rx="93.75" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-714.8" font-family="Times,serif" font-size="14.00" style="">functionDelegateCall</text>
+</g>
+<!-- AddressUpgradeable.functionDelegateCall&#45;&gt;AddressUpgradeable.functionDelegateCall -->
+<g id="edge38" class="edge" data-name="AddressUpgradeable.functionDelegateCall-&gt;AddressUpgradeable.functionDelegateCall">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M778.36,-734.92C764.13,-745.15 782.32,-755 832.94,-755 860.22,-755 878.09,-752.14 886.53,-747.9" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="890.02,-748.17 887.28,-737.93 883.04,-747.64 890.02,-748.17" style=""/>
+</g>
+<!-- AddressUpgradeable.functionDelegateCall&#45;&gt;AddressUpgradeable.verifyCallResultFromTarget -->
+<g id="edge40" class="edge" data-name="AddressUpgradeable.functionDelegateCall-&gt;AddressUpgradeable.verifyCallResultFromTarget">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M920.59,-726.45C953.96,-729.32 992.69,-732.65 1028.62,-735.74" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1027.91,-739.19 1038.18,-736.56 1028.51,-732.22 1027.91,-739.19" style=""/>
+</g>
+<!-- target.delegatecall -->
+<g id="node111" class="node" pointer-events="visible" data-name="target.delegatecall">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1148.99" cy="-580" rx="57.29" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-575.8" font-family="Times,serif" font-size="14.00" style="">delegatecall</text>
+</g>
+<!-- AddressUpgradeable.functionDelegateCall&#45;&gt;target.delegatecall -->
+<g id="edge39" class="edge" data-name="AddressUpgradeable.functionDelegateCall-&gt;target.delegatecall">
+
+<path fill="none" stroke="white" stroke-width="2" d="M855.02,-700.19C884.7,-674.81 941.49,-630.12 997.98,-607 1023.43,-596.58 1052.95,-590.17 1079.03,-586.23" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1079.5,-589.7 1088.92,-584.86 1078.53,-582.77 1079.5,-589.7" style=""/>
+</g>
+<!-- AddressUpgradeable.verifyCallResultFromTarget&#45;&gt;AddressUpgradeable.isContract -->
+<g id="edge41" class="edge" data-name="AddressUpgradeable.verifyCallResultFromTarget-&gt;AddressUpgradeable.isContract">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1252.69,-735.68C1287.68,-732.16 1325.7,-728.34 1356.51,-725.24" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1356.62,-728.75 1366.22,-724.26 1355.92,-721.78 1356.62,-728.75" style=""/>
+</g>
+<!-- AddressUpgradeable._revert -->
+<g id="node51" class="node" pointer-events="visible" data-name="AddressUpgradeable._revert">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1419.59" cy="-773" rx="38.26" ry="18" style=""/>
+<text text-anchor="middle" x="1419.59" y="-768.8" font-family="Times,serif" font-size="14.00" style="">_revert</text>
+</g>
+<!-- AddressUpgradeable.verifyCallResultFromTarget&#45;&gt;AddressUpgradeable._revert -->
+<g id="edge42" class="edge" data-name="AddressUpgradeable.verifyCallResultFromTarget-&gt;AddressUpgradeable._revert">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1252.69,-756.32C1292.13,-760.29 1335.42,-764.64 1367.89,-767.9" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1367.35,-771.37 1377.65,-768.88 1368.05,-764.4 1367.35,-771.37" style=""/>
+</g>
+<!-- AddressUpgradeable.verifyCallResult -->
+<g id="node50" class="node" pointer-events="visible" data-name="AddressUpgradeable.verifyCallResult">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="1148.99" cy="-800" rx="74.74" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-795.8" font-family="Times,serif" font-size="14.00" style="">verifyCallResult</text>
+</g>
+<!-- AddressUpgradeable.verifyCallResult&#45;&gt;AddressUpgradeable._revert -->
+<g id="edge43" class="edge" data-name="AddressUpgradeable.verifyCallResult-&gt;AddressUpgradeable._revert">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1219.86,-792.98C1266.29,-788.31 1326.18,-782.29 1368.02,-778.08" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1368.32,-781.57 1377.92,-777.09 1367.62,-774.61 1368.32,-781.57" style=""/>
+</g>
+<!-- OwnableUpgradeable.__Ownable_init -->
+<g id="node52" class="node" pointer-events="visible" data-name="OwnableUpgradeable.__Ownable_init">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-3467" rx="73.02" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-3462.8" font-family="Times,serif" font-size="14.00" style="">__Ownable_init</text>
+</g>
+<!-- OwnableUpgradeable.__Ownable_init_unchained -->
+<g id="node53" class="node" pointer-events="visible" data-name="OwnableUpgradeable.__Ownable_init_unchained">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="516.88" cy="-3475" rx="117.54" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-3470.8" font-family="Times,serif" font-size="14.00" style="">__Ownable_init_unchained</text>
+</g>
+<!-- OwnableUpgradeable.__Ownable_init&#45;&gt;OwnableUpgradeable.__Ownable_init_unchained -->
+<g id="edge44" class="edge" data-name="OwnableUpgradeable.__Ownable_init-&gt;OwnableUpgradeable.__Ownable_init_unchained">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M246.87,-3468.71C287.48,-3469.66 339.22,-3470.87 386.47,-3471.97" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="386.23,-3475.47 396.31,-3472.2 386.39,-3468.47 386.23,-3475.47" style=""/>
+</g>
+<!-- OwnableUpgradeable._transferOwnership -->
+<g id="node59" class="node" pointer-events="visible" data-name="OwnableUpgradeable._transferOwnership">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="832.94" cy="-3421" rx="87.96" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-3416.8" font-family="Times,serif" font-size="14.00" style="">_transferOwnership</text>
+</g>
+<!-- OwnableUpgradeable.__Ownable_init_unchained&#45;&gt;OwnableUpgradeable._transferOwnership -->
+<g id="edge45" class="edge" data-name="OwnableUpgradeable.__Ownable_init_unchained-&gt;OwnableUpgradeable._transferOwnership">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M599.49,-3461.09C624.05,-3456.89 651.07,-3452.27 675.9,-3448 700.01,-3443.85 726.22,-3439.33 750.15,-3435.18" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="750.57,-3438.66 759.83,-3433.51 749.38,-3431.77 750.57,-3438.66" style=""/>
+</g>
+<!-- OwnableUpgradeable._msgSender -->
+<g id="node60" class="node" pointer-events="visible" data-name="OwnableUpgradeable._msgSender">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="832.94" cy="-3475" rx="58.56" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-3470.8" font-family="Times,serif" font-size="14.00" style="">_msgSender</text>
+</g>
+<!-- OwnableUpgradeable.__Ownable_init_unchained&#45;&gt;OwnableUpgradeable._msgSender -->
+<g id="edge46" class="edge" data-name="OwnableUpgradeable.__Ownable_init_unchained-&gt;OwnableUpgradeable._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M635.72,-3475C677.6,-3475 723.46,-3475 760.3,-3475" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="759.91,-3478.5 769.91,-3475 759.91,-3471.5 759.91,-3478.5" style=""/>
+</g>
+<!-- OwnableUpgradeable.onlyOwner -->
+<g id="node54" class="node" pointer-events="visible" data-name="OwnableUpgradeable.onlyOwner">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="231.88,-3517.54 231.88,-3532.46 197.35,-3543 148.52,-3543 113.99,-3532.46 113.99,-3517.54 148.52,-3507 197.35,-3507 231.88,-3517.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="235.88,-3514.58 235.88,-3535.42 197.95,-3547 147.92,-3547 109.99,-3535.42 109.99,-3514.58 147.92,-3503 197.95,-3503 235.88,-3514.58" style=""/>
+<text text-anchor="middle" x="172.93" y="-3520.8" font-family="Times,serif" font-size="14.00" style="">onlyOwner</text>
+</g>
+<!-- OwnableUpgradeable._checkOwner -->
+<g id="node56" class="node" pointer-events="visible" data-name="OwnableUpgradeable._checkOwner">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="516.88" cy="-3529" rx="64.82" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-3524.8" font-family="Times,serif" font-size="14.00" style="">_checkOwner</text>
+</g>
+<!-- OwnableUpgradeable.onlyOwner&#45;&gt;OwnableUpgradeable._checkOwner -->
+<g id="edge47" class="edge" data-name="OwnableUpgradeable.onlyOwner-&gt;OwnableUpgradeable._checkOwner">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M237.05,-3525.74C293.68,-3526.4 377,-3527.38 437.8,-3528.09" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="437.74,-3531.59 447.78,-3528.2 437.82,-3524.59 437.74,-3531.59" style=""/>
+</g>
+<!-- OwnableUpgradeable.owner -->
+<g id="node55" class="node" pointer-events="visible" data-name="OwnableUpgradeable.owner">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="832.94" cy="-3529" rx="35.34" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-3524.8" font-family="Times,serif" font-size="14.00" style="">owner</text>
+</g>
+<!-- OwnableUpgradeable._checkOwner&#45;&gt;OwnableUpgradeable.owner -->
+<g id="edge48" class="edge" data-name="OwnableUpgradeable._checkOwner-&gt;OwnableUpgradeable.owner">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M582.95,-3529C642.58,-3529 729.52,-3529 783.31,-3529" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="783.21,-3532.5 793.21,-3529 783.21,-3525.5 783.21,-3532.5" style=""/>
+</g>
+<!-- OwnableUpgradeable._checkOwner&#45;&gt;OwnableUpgradeable._msgSender -->
+<g id="edge49" class="edge" data-name="OwnableUpgradeable._checkOwner-&gt;OwnableUpgradeable._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M574.2,-3519.41C604.36,-3514.26 642.16,-3507.8 675.9,-3502 705.97,-3496.83 739.3,-3491.07 767.41,-3486.2" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="767.69,-3489.7 776.95,-3484.54 766.49,-3482.8 767.69,-3489.7" style=""/>
+</g>
+<!-- OwnableUpgradeable.renounceOwnership -->
+<g id="node57" class="node" pointer-events="visible" data-name="OwnableUpgradeable.renounceOwnership">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="516.88" cy="-3421" rx="88.6" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-3416.8" font-family="Times,serif" font-size="14.00" style="">renounceOwnership</text>
+</g>
+<!-- OwnableUpgradeable.renounceOwnership&#45;&gt;OwnableUpgradeable._transferOwnership -->
+<g id="edge50" class="edge" data-name="OwnableUpgradeable.renounceOwnership-&gt;OwnableUpgradeable._transferOwnership">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M606.62,-3421C645.33,-3421 690.91,-3421 730.92,-3421" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="730.66,-3424.5 740.66,-3421 730.66,-3417.5 730.66,-3424.5" style=""/>
+</g>
+<!-- OwnableUpgradeable.transferOwnership -->
+<g id="node58" class="node" pointer-events="visible" data-name="OwnableUpgradeable.transferOwnership">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="516.88" cy="-3367" rx="82.81" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-3362.8" font-family="Times,serif" font-size="14.00" style="">transferOwnership</text>
+</g>
+<!-- OwnableUpgradeable.transferOwnership&#45;&gt;OwnableUpgradeable._transferOwnership -->
+<g id="edge51" class="edge" data-name="OwnableUpgradeable.transferOwnership-&gt;OwnableUpgradeable._transferOwnership">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M584.78,-3378.4C612.91,-3383.2 646,-3388.86 675.9,-3394 700.01,-3398.15 726.22,-3402.67 750.15,-3406.82" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="749.38,-3410.23 759.83,-3408.49 750.57,-3403.34 749.38,-3410.23" style=""/>
+</g>
+<!-- ContextUpgradeable.__Context_init -->
+<g id="node61" class="node" pointer-events="visible" data-name="ContextUpgradeable.__Context_init">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-3830" rx="68.96" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-3825.8" font-family="Times,serif" font-size="14.00" style="">__Context_init</text>
+</g>
+<!-- ContextUpgradeable.__Context_init_unchained -->
+<g id="node62" class="node" pointer-events="visible" data-name="ContextUpgradeable.__Context_init_unchained">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-3776" rx="113.48" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-3771.8" font-family="Times,serif" font-size="14.00" style="">__Context_init_unchained</text>
+</g>
+<!-- ContextUpgradeable._msgSender -->
+<g id="node63" class="node" pointer-events="visible" data-name="ContextUpgradeable._msgSender">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-3722" rx="58.56" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-3717.8" font-family="Times,serif" font-size="14.00" style="">_msgSender</text>
+</g>
+<!-- ContextUpgradeable._msgData -->
+<g id="node64" class="node" pointer-events="visible" data-name="ContextUpgradeable._msgData">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-3668" rx="50.39" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-3663.8" font-family="Times,serif" font-size="14.00" style="">_msgData</text>
+</g>
+<!-- ContextUpgradeable._contextSuffixLength -->
+<g id="node65" class="node" pointer-events="visible" data-name="ContextUpgradeable._contextSuffixLength">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-3614" rx="95.57" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-3609.8" font-family="Times,serif" font-size="14.00" style="">_contextSuffixLength</text>
+</g>
+<!-- Initializable.initializer -->
+<g id="node66" class="node" pointer-events="visible" data-name="Initializable.initializer">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="1200.99,-1672.54 1200.99,-1687.46 1170.53,-1698 1127.46,-1698 1097,-1687.46 1097,-1672.54 1127.46,-1662 1170.53,-1662 1200.99,-1672.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="1204.98,-1669.7 1204.98,-1690.3 1171.2,-1702 1126.79,-1702 1093,-1690.3 1093,-1669.7 1126.79,-1658 1171.2,-1658 1204.98,-1669.7" style=""/>
+<text text-anchor="middle" x="1148.99" y="-1675.8" font-family="Times,serif" font-size="14.00" style="">initializer</text>
+</g>
+<!-- Initializable.initializer&#45;&gt;AddressUpgradeable.isContract -->
+<g id="edge52" class="edge" data-name="Initializable.initializer-&gt;AddressUpgradeable.isContract">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1206.24,-1685.12C1241.09,-1684.92 1283.71,-1677.88 1308.01,-1649 1340.32,-1610.61 1297.58,-785.9 1328.01,-746 1335.1,-736.71 1345.26,-730.49 1356.23,-726.37" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1356.91,-729.82 1365.45,-723.55 1354.86,-723.13 1356.91,-729.82" style=""/>
+</g>
+<!-- Initializable.reinitializer -->
+<g id="node67" class="node" pointer-events="visible" data-name="Initializable.reinitializer">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="1209.22,-1796.54 1209.22,-1811.46 1173.94,-1822 1124.05,-1822 1088.77,-1811.46 1088.77,-1796.54 1124.05,-1786 1173.94,-1786 1209.22,-1796.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="1213.23,-1793.57 1213.23,-1814.43 1174.53,-1826 1123.46,-1826 1084.76,-1814.43 1084.76,-1793.57 1123.46,-1782 1174.53,-1782 1213.23,-1793.57" style=""/>
+<text text-anchor="middle" x="1148.99" y="-1799.8" font-family="Times,serif" font-size="14.00" style="">reinitializer</text>
+</g>
+<!-- Initializable.onlyInitializing -->
+<g id="node68" class="node" pointer-events="visible" data-name="Initializable.onlyInitializing">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="1225.28,-1734.54 1225.28,-1749.46 1180.59,-1760 1117.39,-1760 1072.71,-1749.46 1072.71,-1734.54 1117.39,-1724 1180.59,-1724 1225.28,-1734.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="1229.28,-1731.38 1229.28,-1752.62 1181.06,-1764 1116.93,-1764 1068.71,-1752.62 1068.71,-1731.38 1116.93,-1720 1181.06,-1720 1229.28,-1731.38" style=""/>
+<text text-anchor="middle" x="1148.99" y="-1737.8" font-family="Times,serif" font-size="14.00" style="">onlyInitializing</text>
+</g>
+<!-- Initializable._disableInitializers -->
+<g id="node69" class="node" pointer-events="visible" data-name="Initializable._disableInitializers">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="1148.99" cy="-1862" rx="84.52" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-1857.8" font-family="Times,serif" font-size="14.00" style="">_disableInitializers</text>
+</g>
+<!-- Initializable.type -->
+<g id="node72" class="node" pointer-events="visible" data-name="Initializable.type">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1419.59" cy="-1862" rx="27.83" ry="18" style=""/>
+<text text-anchor="middle" x="1419.59" y="-1857.8" font-family="Times,serif" font-size="14.00" style="">type</text>
+</g>
+<!-- Initializable._disableInitializers&#45;&gt;Initializable.type -->
+<g id="edge53" class="edge" data-name="Initializable._disableInitializers-&gt;Initializable.type">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1217.08,-1850.13C1268.68,-1847.4 1338.11,-1848.1 1380.54,-1852.24" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1379.97,-1855.7 1390.3,-1853.36 1380.76,-1848.74 1379.97,-1855.7" style=""/>
+</g>
+<!-- Initializable._disableInitializers&#45;&gt;Initializable.type -->
+<g id="edge54" class="edge" data-name="Initializable._disableInitializers-&gt;Initializable.type">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1234.98,-1862C1282.48,-1862 1339.53,-1862 1377.3,-1862" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1377.26,-1865.5 1387.26,-1862 1377.26,-1858.5 1377.26,-1865.5" style=""/>
+</g>
+<!-- Initializable._disableInitializers&#45;&gt;Initializable.type -->
+<g id="edge55" class="edge" data-name="Initializable._disableInitializers-&gt;Initializable.type">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1217.08,-1873.87C1268.68,-1876.6 1338.11,-1875.9 1380.54,-1871.76" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1380.76,-1875.26 1390.3,-1870.64 1379.97,-1868.3 1380.76,-1875.26" style=""/>
+</g>
+<!-- Initializable._getInitializedVersion -->
+<g id="node70" class="node" pointer-events="visible" data-name="Initializable._getInitializedVersion">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="1148.99" cy="-1622" rx="97.27" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-1617.8" font-family="Times,serif" font-size="14.00" style="">_getInitializedVersion</text>
+</g>
+<!-- Initializable._isInitializing -->
+<g id="node71" class="node" pointer-events="visible" data-name="Initializable._isInitializing">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="1148.99" cy="-1568" rx="64.86" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-1563.8" font-family="Times,serif" font-size="14.00" style="">_isInitializing</text>
+</g>
+<!-- UUPSUpgradeable.onlyProxy -->
+<g id="node73" class="node" pointer-events="visible" data-name="UUPSUpgradeable.onlyProxy">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="228.44,-4243.54 228.44,-4258.46 195.92,-4269 149.94,-4269 117.43,-4258.46 117.43,-4243.54 149.94,-4233 195.92,-4233 228.44,-4243.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="232.44,-4240.64 232.44,-4261.36 196.56,-4273 149.31,-4273 113.43,-4261.36 113.43,-4240.64 149.31,-4229 196.56,-4229 232.44,-4240.64" style=""/>
+<text text-anchor="middle" x="172.93" y="-4246.8" font-family="Times,serif" font-size="14.00" style="">onlyProxy</text>
+</g>
+<!-- UUPSUpgradeable._getImplementation -->
+<g id="node81" class="node" pointer-events="visible" data-name="UUPSUpgradeable._getImplementation">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="516.88" cy="-4251" rx="88.61" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-4246.8" font-family="Times,serif" font-size="14.00" style="">_getImplementation</text>
+</g>
+<!-- UUPSUpgradeable.onlyProxy&#45;&gt;UUPSUpgradeable._getImplementation -->
+<g id="edge56" class="edge" data-name="UUPSUpgradeable.onlyProxy-&gt;UUPSUpgradeable._getImplementation">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M233.89,-4251C283.67,-4251 355.59,-4251 414.33,-4251" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="414.01,-4254.5 424.01,-4251 414.01,-4247.5 414.01,-4254.5" style=""/>
+</g>
+<!-- UUPSUpgradeable.notDelegated -->
+<g id="node74" class="node" pointer-events="visible" data-name="UUPSUpgradeable.notDelegated">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="240.76,-4181.54 240.76,-4196.46 201.03,-4207 144.84,-4207 105.1,-4196.46 105.1,-4181.54 144.84,-4171 201.03,-4171 240.76,-4181.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="244.77,-4178.47 244.77,-4199.53 201.55,-4211 144.31,-4211 101.09,-4199.53 101.09,-4178.47 144.31,-4167 201.55,-4167 244.77,-4178.47" style=""/>
+<text text-anchor="middle" x="172.93" y="-4184.8" font-family="Times,serif" font-size="14.00" style="">notDelegated</text>
+</g>
+<!-- UUPSUpgradeable.__UUPSUpgradeable_init -->
+<g id="node75" class="node" pointer-events="visible" data-name="UUPSUpgradeable.__UUPSUpgradeable_init">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-4131" rx="112.34" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-4126.8" font-family="Times,serif" font-size="14.00" style="">__UUPSUpgradeable_init</text>
+</g>
+<!-- UUPSUpgradeable.__UUPSUpgradeable_init_unchained -->
+<g id="node76" class="node" pointer-events="visible" data-name="UUPSUpgradeable.__UUPSUpgradeable_init_unchained">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-4077" rx="156.87" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-4072.8" font-family="Times,serif" font-size="14.00" style="">__UUPSUpgradeable_init_unchained</text>
+</g>
+<!-- UUPSUpgradeable.proxiableUUID -->
+<g id="node77" class="node" pointer-events="visible" data-name="UUPSUpgradeable.proxiableUUID">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="172.93" cy="-4023" rx="71.78" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-4018.8" font-family="Times,serif" font-size="14.00" style="">proxiableUUID</text>
+</g>
+<!-- UUPSUpgradeable.upgradeTo -->
+<g id="node78" class="node" pointer-events="visible" data-name="UUPSUpgradeable.upgradeTo">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="172.93" cy="-3969" rx="52.73" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-3964.8" font-family="Times,serif" font-size="14.00" style="">upgradeTo</text>
+</g>
+<!-- UUPSUpgradeable._authorizeUpgrade -->
+<g id="node80" class="node" pointer-events="visible" data-name="UUPSUpgradeable._authorizeUpgrade">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="516.88" cy="-3915" rx="85.08" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-3910.8" font-family="Times,serif" font-size="14.00" style="">_authorizeUpgrade</text>
+</g>
+<!-- UUPSUpgradeable.upgradeTo&#45;&gt;UUPSUpgradeable._authorizeUpgrade -->
+<g id="edge57" class="edge" data-name="UUPSUpgradeable.upgradeTo-&gt;UUPSUpgradeable._authorizeUpgrade">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M222.56,-3961.32C277.27,-3952.68 367.08,-3938.5 432.94,-3928.1" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="433.45,-3931.56 442.78,-3926.54 432.36,-3924.65 433.45,-3931.56" style=""/>
+</g>
+<!-- UUPSUpgradeable._upgradeToAndCallUUPS -->
+<g id="node82" class="node" pointer-events="visible" data-name="UUPSUpgradeable._upgradeToAndCallUUPS">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="516.88" cy="-3969" rx="115.22" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-3964.8" font-family="Times,serif" font-size="14.00" style="">_upgradeToAndCallUUPS</text>
+</g>
+<!-- UUPSUpgradeable.upgradeTo&#45;&gt;UUPSUpgradeable._upgradeToAndCallUUPS -->
+<g id="edge58" class="edge" data-name="UUPSUpgradeable.upgradeTo-&gt;UUPSUpgradeable._upgradeToAndCallUUPS">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M226.99,-3969C269.8,-3969 331.85,-3969 387.47,-3969" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="387.31,-3972.5 397.31,-3969 387.31,-3965.5 387.31,-3972.5" style=""/>
+</g>
+<!-- UUPSUpgradeable.upgradeToAndCall -->
+<g id="node79" class="node" pointer-events="visible" data-name="UUPSUpgradeable.upgradeToAndCall">
+
+<ellipse fill="#ff9797" stroke="brown" stroke-width="3" cx="172.93" cy="-3915" rx="85.68" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-3910.8" font-family="Times,serif" font-size="14.00" style="">upgradeToAndCall</text>
+</g>
+<!-- UUPSUpgradeable.upgradeToAndCall&#45;&gt;UUPSUpgradeable._authorizeUpgrade -->
+<g id="edge59" class="edge" data-name="UUPSUpgradeable.upgradeToAndCall-&gt;UUPSUpgradeable._authorizeUpgrade">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M259.78,-3915C307.83,-3915 367.91,-3915 417.81,-3915" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="417.56,-3918.5 427.56,-3915 417.56,-3911.5 417.56,-3918.5" style=""/>
+</g>
+<!-- UUPSUpgradeable.upgradeToAndCall&#45;&gt;UUPSUpgradeable._upgradeToAndCallUUPS -->
+<g id="edge60" class="edge" data-name="UUPSUpgradeable.upgradeToAndCall-&gt;UUPSUpgradeable._upgradeToAndCallUUPS">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M244.37,-3926.12C294.79,-3934.09 363.31,-3944.91 418.9,-3953.68" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="418.23,-3957.12 428.65,-3955.22 419.32,-3950.21 418.23,-3957.12" style=""/>
+</g>
+<!-- IERC1822ProxiableUpgradeable.proxiableUUID -->
+<g id="node83" class="node" pointer-events="visible" data-name="IERC1822ProxiableUpgradeable.proxiableUUID">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="172.93" cy="-4340" rx="71.78" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-4335.8" font-family="Times,serif" font-size="14.00" style="">proxiableUUID</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable.__ERC1967Upgrade_init -->
+<g id="node84" class="node" pointer-events="visible" data-name="ERC1967UpgradeUpgradeable.__ERC1967Upgrade_init">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-495" rx="109.98" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-490.8" font-family="Times,serif" font-size="14.00" style="">__ERC1967Upgrade_init</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable.__ERC1967Upgrade_init_unchained -->
+<g id="node85" class="node" pointer-events="visible" data-name="ERC1967UpgradeUpgradeable.__ERC1967Upgrade_init_unchained">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-441" rx="154.01" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-436.8" font-family="Times,serif" font-size="14.00" style="">__ERC1967Upgrade_init_unchained</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable._getImplementation -->
+<g id="node86" class="node" pointer-events="visible" data-name="ERC1967UpgradeUpgradeable._getImplementation">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-171" rx="88.61" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-166.8" font-family="Times,serif" font-size="14.00" style="">_getImplementation</text>
+</g>
+<!-- StorageSlotUpgradeable.getAddressSlot -->
+<g id="node98" class="node" pointer-events="visible" data-name="StorageSlotUpgradeable.getAddressSlot">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="1419.59" cy="-304" rx="70.1" ry="18" style=""/>
+<text text-anchor="middle" x="1419.59" y="-299.8" font-family="Times,serif" font-size="14.00" style="">getAddressSlot</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable._getImplementation&#45;&gt;StorageSlotUpgradeable.getAddressSlot -->
+<g id="edge61" class="edge" data-name="ERC1967UpgradeUpgradeable._getImplementation-&gt;StorageSlotUpgradeable.getAddressSlot">
+
+<path fill="none" stroke="white" stroke-width="2" d="M246.55,-159.86C432.99,-134.65 939.72,-87.85 1308.01,-257 1319.43,-262.25 1317.21,-270.56 1328.01,-277 1335.12,-281.24 1342.95,-284.86 1350.94,-287.93" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1349.66,-291.19 1360.25,-291.2 1351.97,-284.59 1349.66,-291.19" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._setImplementation -->
+<g id="node87" class="node" pointer-events="visible" data-name="ERC1967UpgradeUpgradeable._setImplementation">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1148.99" cy="-442" rx="87.97" ry="18" style=""/>
+<text text-anchor="middle" x="1148.99" y="-437.8" font-family="Times,serif" font-size="14.00" style="">_setImplementation</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable._setImplementation&#45;&gt;AddressUpgradeable.isContract -->
+<g id="edge62" class="edge" data-name="ERC1967UpgradeUpgradeable._setImplementation-&gt;AddressUpgradeable.isContract">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1214.99,-455.12C1246.04,-464.08 1282.02,-478.68 1308.01,-502 1365.14,-553.25 1396.85,-640.91 1410.46,-687.59" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1407.02,-688.27 1413.08,-696.96 1413.76,-686.39 1407.02,-688.27" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._setImplementation&#45;&gt;StorageSlotUpgradeable.getAddressSlot -->
+<g id="edge63" class="edge" data-name="ERC1967UpgradeUpgradeable._setImplementation-&gt;StorageSlotUpgradeable.getAddressSlot">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1205.07,-426.91C1236.24,-417.29 1275.38,-403.37 1308.01,-386 1337.02,-370.55 1366.76,-348.04 1388.09,-330.51" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1390.09,-333.4 1395.52,-324.3 1385.6,-328.03 1390.09,-333.4" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._upgradeTo -->
+<g id="node88" class="node" pointer-events="visible" data-name="ERC1967UpgradeUpgradeable._upgradeTo">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="832.94" cy="-456" rx="57.89" ry="18" style=""/>
+<text text-anchor="middle" x="832.94" y="-451.8" font-family="Times,serif" font-size="14.00" style="">_upgradeTo</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable._upgradeTo&#45;&gt;ERC1967UpgradeUpgradeable._setImplementation -->
+<g id="edge64" class="edge" data-name="ERC1967UpgradeUpgradeable._upgradeTo-&gt;ERC1967UpgradeUpgradeable._setImplementation">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M891.54,-453.43C935.37,-451.48 996.76,-448.74 1048.49,-446.44" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1048.56,-449.94 1058.39,-445.99 1048.24,-442.94 1048.56,-449.94" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._upgradeToAndCall -->
+<g id="node89" class="node" pointer-events="visible" data-name="ERC1967UpgradeUpgradeable._upgradeToAndCall">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="516.88" cy="-492" rx="90.34" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-487.8" font-family="Times,serif" font-size="14.00" style="">_upgradeToAndCall</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable._upgradeToAndCall&#45;&gt;AddressUpgradeable.functionDelegateCall -->
+<g id="edge66" class="edge" data-name="ERC1967UpgradeUpgradeable._upgradeToAndCall-&gt;AddressUpgradeable.functionDelegateCall">
+
+<path fill="none" stroke="white" stroke-width="2" d="M543.58,-510.58C599.39,-550.92 731.79,-646.61 795.91,-692.96" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="793.71,-695.69 803.87,-698.71 797.81,-690.02 793.71,-695.69" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._upgradeToAndCall&#45;&gt;ERC1967UpgradeUpgradeable._upgradeTo -->
+<g id="edge65" class="edge" data-name="ERC1967UpgradeUpgradeable._upgradeToAndCall-&gt;ERC1967UpgradeUpgradeable._upgradeTo">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M597.54,-482.87C649.08,-476.96 715.46,-469.35 764.41,-463.74" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="764.55,-467.25 774.09,-462.63 763.75,-460.29 764.55,-467.25" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._upgradeToAndCallUUPS -->
+<g id="node90" class="node" pointer-events="visible" data-name="ERC1967UpgradeUpgradeable._upgradeToAndCallUUPS">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-333" rx="115.22" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-328.8" font-family="Times,serif" font-size="14.00" style="">_upgradeToAndCallUUPS</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable._upgradeToAndCallUUPS&#45;&gt;ERC1967UpgradeUpgradeable._setImplementation -->
+<g id="edge68" class="edge" data-name="ERC1967UpgradeUpgradeable._upgradeToAndCallUUPS-&gt;ERC1967UpgradeUpgradeable._setImplementation">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M266.03,-344.71C287.26,-348.57 309.56,-353.58 329.87,-360 346.74,-365.34 348.78,-372.42 365.87,-377 398.46,-385.74 849.18,-419.89 1051.22,-434.88" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1050.91,-438.37 1061.14,-435.62 1051.43,-431.39 1050.91,-438.37" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._upgradeToAndCallUUPS&#45;&gt;ERC1967UpgradeUpgradeable._upgradeToAndCall -->
+<g id="edge69" class="edge" data-name="ERC1967UpgradeUpgradeable._upgradeToAndCallUUPS-&gt;ERC1967UpgradeUpgradeable._upgradeToAndCall">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M286.12,-337.44C302.09,-342.14 317.32,-349.31 329.87,-360 367.41,-392.01 328.43,-432.87 365.87,-465 379.2,-476.44 395.7,-483.76 412.84,-488.34" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="411.91,-491.71 422.44,-490.53 413.47,-484.89 411.91,-491.71" style=""/>
+</g>
+<!-- StorageSlotUpgradeable.getBooleanSlot -->
+<g id="node99" class="node" pointer-events="visible" data-name="StorageSlotUpgradeable.getBooleanSlot">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="1419.59" cy="-250" rx="70.66" ry="18" style=""/>
+<text text-anchor="middle" x="1419.59" y="-245.8" font-family="Times,serif" font-size="14.00" style="">getBooleanSlot</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable._upgradeToAndCallUUPS&#45;&gt;StorageSlotUpgradeable.getBooleanSlot -->
+<g id="edge67" class="edge" data-name="ERC1967UpgradeUpgradeable._upgradeToAndCallUUPS-&gt;StorageSlotUpgradeable.getBooleanSlot">
+
+<path fill="none" stroke="white" stroke-width="2" d="M277.61,-324.44C295.69,-320.35 313.83,-314.46 329.87,-306 350.16,-295.3 344.81,-278.12 365.87,-269 453.64,-231 1101.52,-242.43 1335.02,-247.87" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1334.7,-251.37 1344.78,-248.1 1334.87,-244.37 1334.7,-251.37" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._getAdmin -->
+<g id="node91" class="node" pointer-events="visible" data-name="ERC1967UpgradeUpgradeable._getAdmin">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="516.88" cy="-350" rx="54.48" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-345.8" font-family="Times,serif" font-size="14.00" style="">_getAdmin</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable._getAdmin&#45;&gt;StorageSlotUpgradeable.getAddressSlot -->
+<g id="edge70" class="edge" data-name="ERC1967UpgradeUpgradeable._getAdmin-&gt;StorageSlotUpgradeable.getAddressSlot">
+
+<path fill="none" stroke="white" stroke-width="2" d="M572.55,-348.87C701.03,-345.96 1032.13,-336.88 1308.01,-316 1318.74,-315.19 1330.03,-314.16 1341.14,-313.05" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1341.44,-316.54 1351.03,-312.03 1340.73,-309.58 1341.44,-316.54" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._setAdmin -->
+<g id="node92" class="node" pointer-events="visible" data-name="ERC1967UpgradeUpgradeable._setAdmin">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="516.88" cy="-296" rx="53.34" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-291.8" font-family="Times,serif" font-size="14.00" style="">_setAdmin</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable._setAdmin&#45;&gt;StorageSlotUpgradeable.getAddressSlot -->
+<g id="edge71" class="edge" data-name="ERC1967UpgradeUpgradeable._setAdmin-&gt;StorageSlotUpgradeable.getAddressSlot">
+
+<path fill="none" stroke="white" stroke-width="2" d="M571.53,-296.48C722.72,-297.82 1153.11,-301.64 1335.4,-303.26" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1335.29,-306.76 1345.32,-303.35 1335.35,-299.76 1335.29,-306.76" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._changeAdmin -->
+<g id="node93" class="node" pointer-events="visible" data-name="ERC1967UpgradeUpgradeable._changeAdmin">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-279" rx="70.07" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-274.8" font-family="Times,serif" font-size="14.00" style="">_changeAdmin</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable._changeAdmin&#45;&gt;ERC1967UpgradeUpgradeable._getAdmin -->
+<g id="edge72" class="edge" data-name="ERC1967UpgradeUpgradeable._changeAdmin-&gt;ERC1967UpgradeUpgradeable._getAdmin">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M238.97,-286.27C267.31,-290.45 300.66,-296.76 329.87,-306 346.74,-311.34 349.01,-317.61 365.87,-323 393.16,-331.73 424.2,-337.91 450.94,-342.13" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="450.28,-345.57 460.69,-343.59 451.32,-338.64 450.28,-345.57" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._changeAdmin&#45;&gt;ERC1967UpgradeUpgradeable._setAdmin -->
+<g id="edge73" class="edge" data-name="ERC1967UpgradeUpgradeable._changeAdmin-&gt;ERC1967UpgradeUpgradeable._setAdmin">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M243.13,-282.44C303.46,-285.44 390.36,-289.76 449.76,-292.71" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="449.56,-296.21 459.72,-293.21 449.9,-289.22 449.56,-296.21" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._getBeacon -->
+<g id="node94" class="node" pointer-events="visible" data-name="ERC1967UpgradeUpgradeable._getBeacon">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-225" rx="56.74" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-220.8" font-family="Times,serif" font-size="14.00" style="">_getBeacon</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable._getBeacon&#45;&gt;StorageSlotUpgradeable.getAddressSlot -->
+<g id="edge74" class="edge" data-name="ERC1967UpgradeUpgradeable._getBeacon-&gt;StorageSlotUpgradeable.getAddressSlot">
+
+<path fill="none" stroke="white" stroke-width="2" d="M230.82,-224.96C323.93,-225.19 514.68,-226.86 675.9,-236 919.16,-249.79 1206.09,-280.05 1341.05,-295.11" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1340.3,-298.55 1350.62,-296.19 1341.08,-291.59 1340.3,-298.55" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._setBeacon -->
+<g id="node95" class="node" pointer-events="visible" data-name="ERC1967UpgradeUpgradeable._setBeacon">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="516.88" cy="-438" rx="55.6" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-433.8" font-family="Times,serif" font-size="14.00" style="">_setBeacon</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable._setBeacon&#45;&gt;AddressUpgradeable.isContract -->
+<g id="edge75" class="edge" data-name="ERC1967UpgradeUpgradeable._setBeacon-&gt;AddressUpgradeable.isContract">
+
+<path fill="none" stroke="white" stroke-width="2" d="M571.01,-431.88C602.78,-433.46 643.21,-440.17 675.9,-456 686.66,-461.21 684.98,-469.11 695.9,-474 945.68,-585.82 1074.72,-397.91 1308.01,-541 1362.47,-574.41 1395.43,-645.88 1409.9,-687.55" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1406.5,-688.4 1412.94,-696.82 1413.15,-686.22 1406.5,-688.4" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._setBeacon&#45;&gt;AddressUpgradeable.isContract -->
+<g id="edge76" class="edge" data-name="ERC1967UpgradeUpgradeable._setBeacon-&gt;AddressUpgradeable.isContract">
+
+<path fill="none" stroke="white" stroke-width="2" d="M567.39,-447.05C599.68,-450.96 641.96,-457.56 675.9,-474 686.66,-479.21 684.98,-487.11 695.9,-492 945.68,-603.82 1074.72,-415.91 1308.01,-559 1357.42,-589.31 1389.13,-650.94 1405.39,-688.39" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1402.03,-689.43 1409.14,-697.29 1408.49,-686.71 1402.03,-689.43" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._setBeacon&#45;&gt;StorageSlotUpgradeable.getAddressSlot -->
+<g id="edge77" class="edge" data-name="ERC1967UpgradeUpgradeable._setBeacon-&gt;StorageSlotUpgradeable.getAddressSlot">
+
+<path fill="none" stroke="white" stroke-width="2" d="M573.1,-434.8C702.74,-426.49 1036.14,-400.53 1308.01,-340 1326.81,-335.81 1346.96,-329.75 1364.84,-323.78" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1365.91,-327.12 1374.24,-320.57 1363.65,-320.49 1365.91,-327.12" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._upgradeBeaconToAndCall -->
+<g id="node96" class="node" pointer-events="visible" data-name="ERC1967UpgradeUpgradeable._upgradeBeaconToAndCall">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-387" rx="119.25" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-382.8" font-family="Times,serif" font-size="14.00" style="">_upgradeBeaconToAndCall</text>
+</g>
+<!-- ERC1967UpgradeUpgradeable._upgradeBeaconToAndCall&#45;&gt;AddressUpgradeable.functionDelegateCall -->
+<g id="edge79" class="edge" data-name="ERC1967UpgradeUpgradeable._upgradeBeaconToAndCall-&gt;AddressUpgradeable.functionDelegateCall">
+
+<path fill="none" stroke="white" stroke-width="2" d="M288.91,-392.29C303.86,-396.99 318.05,-403.93 329.87,-414 367.41,-446.01 332.31,-482.83 365.87,-519 468.47,-629.61 642.53,-681.75 746.42,-704.14" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="745.58,-707.54 756.08,-706.17 747.01,-700.69 745.58,-707.54" style=""/>
+</g>
+<!-- ERC1967UpgradeUpgradeable._upgradeBeaconToAndCall&#45;&gt;ERC1967UpgradeUpgradeable._setBeacon -->
+<g id="edge78" class="edge" data-name="ERC1967UpgradeUpgradeable._upgradeBeaconToAndCall-&gt;ERC1967UpgradeUpgradeable._setBeacon">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M261.99,-400.13C321.41,-409 398.45,-420.49 452.01,-428.47" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="451.35,-431.91 461.76,-429.93 452.39,-424.99 451.35,-431.91" style=""/>
+</g>
+<!-- IBeaconUpgradeable.implementation -->
+<g id="node97" class="node" pointer-events="visible" data-name="IBeaconUpgradeable.implementation">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="172.93" cy="-4425" rx="71.79" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-4420.8" font-family="Times,serif" font-size="14.00" style="">implementation</text>
+</g>
+<!-- StorageSlotUpgradeable.getBytes32Slot -->
+<g id="node100" class="node" pointer-events="visible" data-name="StorageSlotUpgradeable.getBytes32Slot">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="1419.59" cy="-196" rx="70.11" ry="18" style=""/>
+<text text-anchor="middle" x="1419.59" y="-191.8" font-family="Times,serif" font-size="14.00" style="">getBytes32Slot</text>
+</g>
+<!-- StorageSlotUpgradeable.getUint256Slot -->
+<g id="node101" class="node" pointer-events="visible" data-name="StorageSlotUpgradeable.getUint256Slot">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="1419.59" cy="-142" rx="70.11" ry="18" style=""/>
+<text text-anchor="middle" x="1419.59" y="-137.8" font-family="Times,serif" font-size="14.00" style="">getUint256Slot</text>
+</g>
+<!-- StorageSlotUpgradeable.getStringSlot -->
+<g id="node102" class="node" pointer-events="visible" data-name="StorageSlotUpgradeable.getStringSlot">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="1419.59" cy="-88" rx="62.02" ry="18" style=""/>
+<text text-anchor="middle" x="1419.59" y="-83.8" font-family="Times,serif" font-size="14.00" style="">getStringSlot</text>
+</g>
+<!-- StorageSlotUpgradeable.getBytesSlot -->
+<g id="node103" class="node" pointer-events="visible" data-name="StorageSlotUpgradeable.getBytesSlot">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="1419.59" cy="-34" rx="60.29" ry="18" style=""/>
+<text text-anchor="middle" x="1419.59" y="-29.8" font-family="Times,serif" font-size="14.00" style="">getBytesSlot</text>
+</g>
+<!-- ReentrancyGuardUpgradeable.__ReentrancyGuard_init -->
+<g id="node104" class="node" pointer-events="visible" data-name="ReentrancyGuardUpgradeable.__ReentrancyGuard_init">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-4626" rx="106.51" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-4621.8" font-family="Times,serif" font-size="14.00" style="">__ReentrancyGuard_init</text>
+</g>
+<!-- ReentrancyGuardUpgradeable.__ReentrancyGuard_init_unchained -->
+<g id="node105" class="node" pointer-events="visible" data-name="ReentrancyGuardUpgradeable.__ReentrancyGuard_init_unchained">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="516.88" cy="-4626" rx="151.03" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-4621.8" font-family="Times,serif" font-size="14.00" style="">__ReentrancyGuard_init_unchained</text>
+</g>
+<!-- ReentrancyGuardUpgradeable.__ReentrancyGuard_init&#45;&gt;ReentrancyGuardUpgradeable.__ReentrancyGuard_init_unchained -->
+<g id="edge80" class="edge" data-name="ReentrancyGuardUpgradeable.__ReentrancyGuard_init-&gt;ReentrancyGuardUpgradeable.__ReentrancyGuard_init_unchained">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M280.72,-4626C303.23,-4626 327.47,-4626 351.54,-4626" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="351.46,-4629.5 361.46,-4626 351.46,-4622.5 351.46,-4629.5" style=""/>
+</g>
+<!-- ReentrancyGuardUpgradeable.nonReentrant -->
+<g id="node106" class="node" pointer-events="visible" data-name="ReentrancyGuardUpgradeable.nonReentrant">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="240.96,-4560.54 240.96,-4575.46 201.11,-4586 144.76,-4586 104.91,-4575.46 104.91,-4560.54 144.76,-4550 201.11,-4550 240.96,-4560.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="244.95,-4557.46 244.95,-4578.54 201.63,-4590 144.24,-4590 100.92,-4578.54 100.92,-4557.46 144.24,-4546 201.63,-4546 244.95,-4557.46" style=""/>
+<text text-anchor="middle" x="172.93" y="-4563.8" font-family="Times,serif" font-size="14.00" style="">nonReentrant</text>
+</g>
+<!-- ReentrancyGuardUpgradeable._nonReentrantBefore -->
+<g id="node107" class="node" pointer-events="visible" data-name="ReentrancyGuardUpgradeable._nonReentrantBefore">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="516.88" cy="-4516" rx="94.33" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-4511.8" font-family="Times,serif" font-size="14.00" style="">_nonReentrantBefore</text>
+</g>
+<!-- ReentrancyGuardUpgradeable.nonReentrant&#45;&gt;ReentrancyGuardUpgradeable._nonReentrantBefore -->
+<g id="edge81" class="edge" data-name="ReentrancyGuardUpgradeable.nonReentrant-&gt;ReentrancyGuardUpgradeable._nonReentrantBefore">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M246.03,-4557.04C298.84,-4549.01 370.82,-4538.06 427.16,-4529.49" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="427.67,-4532.95 437.03,-4527.99 426.62,-4526.03 427.67,-4532.95" style=""/>
+</g>
+<!-- ReentrancyGuardUpgradeable._nonReentrantAfter -->
+<g id="node108" class="node" pointer-events="visible" data-name="ReentrancyGuardUpgradeable._nonReentrantAfter">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="516.88" cy="-4570" rx="88.03" ry="18" style=""/>
+<text text-anchor="middle" x="516.88" y="-4565.8" font-family="Times,serif" font-size="14.00" style="">_nonReentrantAfter</text>
+</g>
+<!-- ReentrancyGuardUpgradeable.nonReentrant&#45;&gt;ReentrancyGuardUpgradeable._nonReentrantAfter -->
+<g id="edge82" class="edge" data-name="ReentrancyGuardUpgradeable.nonReentrant-&gt;ReentrancyGuardUpgradeable._nonReentrantAfter">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M246.03,-4568.42C295.01,-4568.71 360.48,-4569.09 414.67,-4569.41" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="414.42,-4572.91 424.44,-4569.47 414.47,-4565.91 414.42,-4572.91" style=""/>
+</g>
+<!-- ReentrancyGuardUpgradeable._reentrancyGuardEntered -->
+<g id="node109" class="node" pointer-events="visible" data-name="ReentrancyGuardUpgradeable._reentrancyGuardEntered">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="172.93" cy="-4510" rx="110.54" ry="18" style=""/>
+<text text-anchor="middle" x="172.93" y="-4505.8" font-family="Times,serif" font-size="14.00" style="">_reentrancyGuardEntered</text>
+</g>
+<!-- key -->
+<g id="node112" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="237.93,-4781 107.93,-4781 107.93,-4693 237.93,-4693 237.93,-4781" style=""/>
+<text text-anchor="start" x="157.57" y="-4762.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="153.68" y="-4742.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="131.14" y="-4722.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="117.53" y="-4702.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node113" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="543.88,-4781 489.88,-4781 489.88,-4693 543.88,-4693 543.88,-4781" style=""/>
+<text text-anchor="start" x="506.88" y="-4762.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="506.88" y="-4742.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="none" points="504.88,-4717 504.88,-4737 529.88,-4737 529.88,-4717 504.88,-4717" style=""/>
+<text text-anchor="start" x="506.88" y="-4722.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="506.88,-4699 506.88,-4715 527.88,-4715 527.88,-4699 506.88,-4699" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge83" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M230.93,-4767C347.86,-4767 380.26,-4767 491.08,-4767" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="490.85,-4770.5 500.85,-4767 490.85,-4763.5 490.85,-4770.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge84" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M230.93,-4747C347.86,-4747 380.26,-4747 491.08,-4747" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="490.85,-4750.5 500.85,-4747 490.85,-4743.5 490.85,-4750.5" style=""/>
+</g>
+</g>
+</svg>

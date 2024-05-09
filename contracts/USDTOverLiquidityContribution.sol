@@ -22,8 +22,6 @@ contract USDTOverLiquidityContribution is
 
     uint256 public totalRaised;
 
-    bool public isPhaseInitiated;
-
     uint256 public bonusInAOC;
 
     mapping(address => UserInfo) public userInfo;
@@ -34,8 +32,6 @@ contract USDTOverLiquidityContribution is
     IERC20Upgradeable private usdtToken;
 
     Phase[] public phases;
-
-    uint256 private currentPhase;
 
     struct UserInfo {
         uint256 contribution;
@@ -51,8 +47,8 @@ contract USDTOverLiquidityContribution is
         uint256 duration;
         uint256 phaseStartTime;
         uint256 phaseEndTime;
-        uint256 maxContributionLimit;
         uint256 contributedAmountInUSDT;
+        bool isPhaseFinalized;
     }
 
     event Contribution(
@@ -60,15 +56,19 @@ contract USDTOverLiquidityContribution is
         uint256 amount,
         uint256 tokens
     );
-    event UpdatePhase(
-        uint256 phase,
+    event UpdatePhaseWhilePhaseLive(uint256 rate, uint256 usdtBonusPercentage);
+    event UpdatePhaseWhileRestart(
+        uint256 phaseIndex,
         uint256 rate,
-        uint256 maxContributionLimit
+        uint256 usdtBonusPercentage,
+        uint256 duration,
+        uint256 phaseStartTime
     );
     event WithdrawUSDTReferalBonus(address indexed contributor, uint256 amount);
     event UpdateBonusInAOC(uint256 aocInTokens);
     event WithdrawToken(address token, address to, uint256 amount); // Event for Withdraw token from contract
     event WithdrawNative(uint256 native);
+    event FinalizeCurrentPhase(bool isCurrentPhaseFinalized);
 
     /// @notice Modifier to restrict operations to the active phase duration
     modifier duringContribution() {
@@ -86,10 +86,9 @@ contract USDTOverLiquidityContribution is
 
     /// @notice Initializes the contract setting up the admin and USDT token
     /// @dev Sets the initial admin and links to the USDT token contract
-    /// @param _usdt The address of the USDT token contract
-    function initialize(address _usdt) external initializer {
-        usdtToken = IERC20Upgradeable(_usdt);
-        currentPhase = 0;
+    /// @param usdt The address of the USDT token contract
+    function initialize(address usdt) external initializer {
+        usdtToken = IERC20Upgradeable(usdt);
         bonusInAOC = 1000; // 1000 = 0.1 referral AOC bonus - AOC reward is only once.
         __Ownable_init_unchained();
         __ReentrancyGuard_init_unchained();
@@ -105,53 +104,62 @@ contract USDTOverLiquidityContribution is
     }
 
     /// @notice Sets the data for each phase of the crowdsale
-    /// @dev Can only be called once before any phase is initiated
-    /// @param rates Array of rates at which tokens are distributed per USDT
-    /// @param userBonuses Array of bonus amounts in USDT for referring others
-    /// @param durations Array of phase durations in seconds
+    /// @dev Can add phases one by one when previous phase is finalized
+    /// @param rate Array of rates at which tokens are distributed per USDT
+    /// @param userBonus Array of bonus amounts in USDT for referring others
+    /// @param duration Array of phase durations in seconds
     /// @param phaseStartTime Start time of the first phase
-    /// @param _maxContributionLimit Array of maximum USDT contribution limits per phase
     function setPhaseData(
-        uint256[] memory rates,
-        uint256[] memory userBonuses,
-        uint256[] memory durations,
-        uint256 phaseStartTime,
-        uint256[] memory _maxContributionLimit
+        uint256 rate,
+        uint256 userBonus,
+        uint256 duration,
+        uint256 phaseStartTime
     ) external onlyOwner nonReentrant {
-        require(
-            rates.length == userBonuses.length &&
-                rates.length == durations.length,
-            "Invalid input lengths"
-        );
-        require(!isPhaseInitiated, "Values are already defined");
-
-        uint256 startTime = phaseStartTime;
-        for (uint256 i = 0; i < rates.length; i++) {
-            phases.push(
-                Phase({
-                    rate: rates[i],
-                    bonusInUSDT: userBonuses[i],
-                    duration: durations[i],
-                    phaseStartTime: startTime,
-                    phaseEndTime: startTime + durations[i],
-                    maxContributionLimit: _maxContributionLimit[i],
-                    contributedAmountInUSDT: 0
-                })
+        if (phases.length > 0) {
+            uint256 currentPhaseIndex = getCurrentPhase();
+            require(
+                phases[currentPhaseIndex].isPhaseFinalized,
+                "Previous phase not finalized"
             );
-            startTime += durations[i]; // 1000 = 0.1 referral AOC bonus - AOC reward is only once.
         }
-        isPhaseInitiated = true;
+        phases.push(
+            Phase({
+                rate: rate,
+                bonusInUSDT: userBonus,
+                duration: duration,
+                phaseStartTime: phaseStartTime,
+                phaseEndTime: phaseStartTime + duration,
+                contributedAmountInUSDT: 0,
+                isPhaseFinalized: false
+            })
+        );
     }
 
-    /// @notice Determines the current active phase based on the current time
-    /// @return The index of the current phase or the index of the last phase if no active phase exists
+    /// @notice Determines the current active phase based on phase index
     function getCurrentPhase() public view returns (uint256) {
         for (uint256 i = 0; i < phases.length; i++) {
-            if (block.timestamp <= phases[i].phaseEndTime) {
+            if (!phases[i].isPhaseFinalized) {
                 return i;
             }
         }
-        return phases.length; // If no phase is active, return the last phase
+        if (phases.length > 0) {
+            return phases.length - 1; // If no phase is active, return the last phase index
+        }
+        return phases.length;
+    }
+
+    /// @dev Finalizes the current phase of the contract.
+    /// Sets the `isPhaseFinalized` flag of the current phase to true to indicate
+    /// that this phase can no longer be modified or reverted.
+    /// Emits a `FinalizeCurrentPhase` event with a status of true upon successful finalization.
+    ///
+    /// Requirements:
+    /// - The function must be called by the contract owner.
+    /// - The function cannot be reentered during its execution.
+    function finalizeCurrentPhase() external onlyOwner nonReentrant {
+        uint256 currentPhaseIndex = getCurrentPhase();
+        phases[currentPhaseIndex].isPhaseFinalized = true;
+        emit FinalizeCurrentPhase(true);
     }
 
     /// @notice Allows users to contribute USDT in exchange for AOC tokens
@@ -168,19 +176,9 @@ contract USDTOverLiquidityContribution is
                 "Referrer does not match expected value."
             );
         }
-        require(
-            phases[currentPhase].maxContributionLimit >=
-                phases[currentPhase].contributedAmountInUSDT,
-            "Contribution exceeds phase maximum limit."
-        );
-        while (
-            block.timestamp > phases[currentPhase].phaseEndTime &&
-            currentPhase < phases.length - 1
-        ) {
-            currentPhase++;
-        }
+        uint256 currentPhaseIndex = getCurrentPhase();
 
-        uint256 rate = (phases[currentPhase].rate * 10 ** 18) / 10000;
+        uint256 rate = (phases[currentPhaseIndex].rate * 10 ** 18) / 10000;
 
         uint256 tokens = ((usdtAmount * 10 ** 18) * rate);
 
@@ -189,11 +187,11 @@ contract USDTOverLiquidityContribution is
         userInfo[msg.sender].balanceInAOC += userBalance;
         userInfo[msg.sender].contribution += usdtAmount * 10 ** 18;
         totalRaised += usdtAmount;
-        phases[currentPhase].contributedAmountInUSDT += usdtAmount;
+        phases[currentPhaseIndex].contributedAmountInUSDT += usdtAmount;
         if (referrer != address(0)) {
             // calculation for referral usdt bonus (ie) calculated from contribution amount
             uint256 bonusInUSDT = ((usdtAmount * 10 ** 18) *
-                phases[currentPhase].bonusInUSDT) / 100;
+                phases[currentPhaseIndex].bonusInUSDT) / 100;
 
             userInfo[referrer].bonusInUSDT += bonusInUSDT;
             userInfo[msg.sender].referrer = referrer;
@@ -219,12 +217,12 @@ contract USDTOverLiquidityContribution is
     }
 
     /// @notice Sets a new USDT token contract address
-    /// @param _newUsdtToken The new USDT token contract address
+    /// @param newUsdtToken The new USDT token contract address
     function setUsdtToken(
-        address _newUsdtToken
+        address newUsdtToken
     ) external onlyOwner nonReentrant {
-        require(_newUsdtToken != address(0), "Invalid USDT token address");
-        usdtToken = IERC20Upgradeable(_newUsdtToken);
+        require(newUsdtToken != address(0), "Invalid USDT token address");
+        usdtToken = IERC20Upgradeable(newUsdtToken);
     }
 
     /// @notice Retrieves information about all phases in the crowdsale
@@ -234,33 +232,56 @@ contract USDTOverLiquidityContribution is
         return (phases);
     }
 
-    /// @notice Updates the configuration of each phase in the crowdsale
-    /// @dev This function updates the rate, USDT bonus, and maximum contribution limit for each phase
+    /// @notice Updates the configuration of phase in the crowdsale when sale ends while restart phase
+    /// @dev This function updates the rate, USDT bonus for phase
     /// @dev Can only be called by the owner of the contract
-    /// @param rates An array of new rates to be set for each phase
-    /// @param userBonuses An array of new USDT bonuses to be set for each phase
-    /// @param _maxContributionLimit An array of new maximum contribution limits to be set for each phase
-    function updatePhase(
-        uint256[] memory rates,
-        uint256[] memory userBonuses,
-        uint256[] memory _maxContributionLimit
+    /// @param phaseIndex index of the re-initiating phase
+    /// @param rate rate to be set for phase - 1USDT = ? AOC
+    /// @param usdtBonusPercentage new USDT bonus to be set for phase
+    /// @param duration phase durations in seconds
+    /// @param phaseStartTime Start time of the phase
+    function updatePhaseWhileRestart(
+        uint256 phaseIndex,
+        uint256 rate,
+        uint256 usdtBonusPercentage,
+        uint256 duration,
+        uint256 phaseStartTime
     ) external onlyOwner nonReentrant {
-        uint256 preSalePhaseLength = phases.length; // here need to remove current active phase
+        uint256 currentPhaseIndex = getCurrentPhase();
         require(
-            rates.length == preSalePhaseLength &&
-                userBonuses.length == preSalePhaseLength,
-            "Invalid input lengths"
+            phases[currentPhaseIndex].isPhaseFinalized,
+            "Previous phase not finalized"
         );
-        for (uint i = 0; i < preSalePhaseLength; i++) {
-            phases[i].rate = rates[i];
-            phases[i].bonusInUSDT = userBonuses[i];
-            phases[i].maxContributionLimit = _maxContributionLimit[i];
-            emit UpdatePhase(
-                rates[i],
-                userBonuses[i],
-                _maxContributionLimit[i]
-            );
-        }
+        phases[phaseIndex].rate = rate;
+        phases[phaseIndex].bonusInUSDT = usdtBonusPercentage;
+        phases[phaseIndex].duration = duration;
+        phases[phaseIndex].phaseStartTime = phaseStartTime;
+        phases[phaseIndex].phaseEndTime = phaseStartTime + duration;
+        phases[phaseIndex].isPhaseFinalized = false;
+
+        emit UpdatePhaseWhileRestart(
+            phaseIndex,
+            rate,
+            usdtBonusPercentage,
+            duration,
+            phaseStartTime
+        );
+    }
+
+    /// @notice Updates the configuration of phase in the crowdsale while phase live
+    /// @dev This function updates the rate, USDT bonus for phase
+    /// @dev Can only be called by the owner of the contract
+    /// @param rate rate to be set for phase - 1USDT = ? AOC
+    /// @param usdtBonusPercentage new USDT bonus to be set for phase
+    function updatePhaseWhilePhaseLive(
+        uint256 rate,
+        uint256 usdtBonusPercentage
+    ) external onlyOwner nonReentrant {
+        uint256 currentPhaseIndex = getCurrentPhase();
+
+        phases[currentPhaseIndex].rate = rate;
+        phases[currentPhaseIndex].bonusInUSDT = usdtBonusPercentage;
+        emit UpdatePhaseWhilePhaseLive(rate, usdtBonusPercentage);
     }
 
     /// @notice Withdraws the USDT referral bonus for the calling user
@@ -283,30 +304,31 @@ contract USDTOverLiquidityContribution is
 
     /// @notice Updates the referral bonus in AOC
     /// @dev Can only be called by the owner
-    /// @param _aocInTokens The new bonus amount in AOC tokens
+    /// @param aocInTokens The new bonus amount in AOC tokens
     function updateBonusInAOC(
-        uint256 _aocInTokens
+        uint256 aocInTokens
     ) external onlyOwner nonReentrant {
-        bonusInAOC = _aocInTokens; // 1000 = 0.1 referral AOC bonus
-        emit UpdateBonusInAOC(_aocInTokens);
+        bonusInAOC = aocInTokens; // 1000 = 0.1 referral AOC bonus
+        emit UpdateBonusInAOC(aocInTokens);
     }
 
     /// @notice Allows the owner to withdraw tokens from a specified token contract.
     /// @dev Can only be called by the owner.
-    /// @param _tokenContract The address of the token contract.
-    /// @param _amount The amount of tokens to withdraw.
+    /// @param tokenAddress The address of the token contract.
+    /// @param amount The amount of tokens to withdraw.
     /// Requirements:
-    /// - `_tokenContract` cannot be the zero address.
+    /// - `tokenAddress` cannot be the zero address.
     /// - The contract must have sufficient balance to transfer.
     /// Emits a {WithdrawToken} event.
     function withdrawToken(
-        address _tokenContract,
-        uint256 _amount
+        address tokenAddress,
+        uint256 amount
     ) external onlyOwner nonReentrant {
-        require(_tokenContract != address(0), "Address cant be zero address");
-        IERC20Upgradeable tokenContract = IERC20Upgradeable(_tokenContract);
-        tokenContract.transfer(msg.sender, _amount);
-        emit WithdrawToken(_tokenContract, msg.sender, _amount);
+        require(tokenAddress != address(0), "Address cant be zero address");
+        IERC20Upgradeable tokenContract = IERC20Upgradeable(tokenAddress);
+        bool success = tokenContract.transfer(msg.sender, amount);
+        require(success, "Transfer failed");
+        emit WithdrawToken(tokenAddress, msg.sender, amount);
     }
 
     /// @dev Fallback function to accept native currency (Ether).
@@ -320,7 +342,7 @@ contract USDTOverLiquidityContribution is
     ///@dev Allows the owner to withdraw native cryptocurrency (e.g., ETH) from this contract.
     function withdrawNative() external onlyOwner nonReentrant {
         uint256 nativeBalance = address(this).balance;
-        payable(msg.sender).transfer(nativeBalance);
         emit WithdrawNative(nativeBalance);
+        require(payable(msg.sender).send(nativeBalance), "Transfer failed");
     }
 }

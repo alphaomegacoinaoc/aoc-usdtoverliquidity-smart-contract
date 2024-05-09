@@ -125,7 +125,7 @@ module.exports = {
     'truffle-plugin-verify'
   ],
   api_keys: {
-    bscscan: "H7PBKC5BASJ7MCQCSZ3V2ATX8E83KD2MEM"
+    bscscan:"BR2I3U4B2JS59FP2TG39BMAHG7EYTIFC45",
     // polygonscan:'N8DSNYW3Z6GXB5NU2K2U6GEBUQHUW41EJS'
      // etherscan:"W2K31XZI1UW64BRI6Z4AZ5M3W4V2ZPBN98"
   }
